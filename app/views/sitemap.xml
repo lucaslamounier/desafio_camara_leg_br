@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.desafio.leg.br/index.html</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.desafio.leg.br/desafios/app-legislativo/index.html</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.desafio.leg.br/desafios/novo-portal/index.html</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.desafio.leg.br/doc/edital_app_legislativo_2017.pdf</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.desafio.leg.br/faq/app-legislativo/index.html</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.desafio.leg.br/doc/edital_novo_portal_camara.pdf</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.desafio.leg.br/faq/novo-portal/index.html</loc>
+  <lastmod>2017-06-20T12:11:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

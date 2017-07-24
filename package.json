@@ -1,0 +1,28 @@
+{
+  "name": "desafio_camara_leg_br",
+  "version": "1.0.0",
+  "description": "Portal de desafios da câmara dos deputados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslamounier/desafio_camara_leg_br.git"
+  },
+  "author": "Lucas Lamounier Sirqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaslamounier/desafio_camara_leg_br/issues"
+  },
+  "homepage": "https://github.com/lucaslamounier/desafio_camara_leg_br#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.1",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5",
+    "request": "^2.81.0"
+  }
+}

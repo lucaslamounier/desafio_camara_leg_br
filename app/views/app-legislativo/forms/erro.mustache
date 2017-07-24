@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <!-- partial:../../partials/head.html -->
+    <head>
+    <title>Desafio.leg.br</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="/img/dev-logos/desafio-fb.png"/>
+    <meta name="keywords" content="desafio, desafio.leg, desafio.leg.br, camara, parlamentar, governo, cidadania, participação popular, câmara dos deputados, concurso, concurso câmara, ideia inovadora.">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="É um convite à inovação e à participação popular feito pela Câmara dos Deputados. Cidadãos são estimulados a propor soluções para desafios reais do Poder Legislativo, podendo ganhar prêmios incríveis. Qualquer pessoa pode participar das competições – independentemente de idade ou experiência. Aceite o desafio de transformar o Poder Legislativo com uma ideia inovadora!">
+    <link rel="shortcut icon" href="/img/icons/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/css/css-components.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/customized.min.css"/>
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>-->
+</head>
+    <!-- partial -->
+    <body>
+        <!-- partial:../../partials/navbar.html -->
+        <div class="container-fluid chlg-top-navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <i id="chlg-logomarca" class="chlg-logo-camara-int img-responsive"></i>
+            </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Home</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+        <!-- partial -->
+        <div class="container-fluid chlg-bg-envia-form-app-legislative">
+            <section id="chlg-envia-form-app-legislative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h1>Aceite o Desafio</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="help-block alert alert-danger" role="alert">
+                                <p class="chlg-proposal text-center">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> ERRO!
+                                </p>
+                                <p class="chlg-proposal-des text-center">Tivemos um problema ao enviar sua proposta</p><hr>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet impedit</li>
+                                    <li>Lorem ipsum dolor sit amet impedit</li>
+                                    <li>Lorem ipsum dolor sit amet impedit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <p class="chlg-steps">Etapa 2 de 2</p>
+                            <p class="chlg-desc-steps">Apresentando sua solução como pessoa física.</p>
+                            <p class="chlg-desc-section"><strong class="text-success">DADOS PESSOAIS</strong> - se a solução foi desenvolvida por uma equipe, informe os dados do representante da equipe.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <form class="chlg-send-app-pf">
+                                <div class="form-group">
+                                    <label for="username">Nome completo</label>
+                                    <input type="text" class="form-control" id="username" name="username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="form-group chlg-resize-form">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label for="phone1">Telefone</label>
+                                            <input type="text" class="form-control" id="phone1" name="phone1" maxlength="11">
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <label for="phone2">Telefone</label>
+                                            <input type="text" class="form-control" id="phone2" name="phone2" maxlength="11">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cpf">CPF</label>
+                                    <input type="text" class="form-control" id="cpf" name="cpf" maxlength="14" onkeypress="formatar('###.###.###-##', this);">
+                                </div>
+                                <div class="form-group">
+                                    <label for="endereco">Endereço</label>
+                                    <input type="text" class="form-control" id="endereco" name="endereco">
+                                </div>
+                                <div class="form-group chlg-resize-form">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label for="cidade">Cidade</label>
+                                            <input type="text" class="form-control" id="cidade" name="cidade">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <label for="uf">UF</label>
+                                            <select name="uf" class="form-control chlg-ufs">
+                                                <option value=""> </option>
+                                                <option value="Acre">AC</option>
+                                                <option value="Alagoas">AL</option>
+                                                <option value="Amapa">AP</option>
+                                                <option value="Amazonas">AM</option>
+                                                <option value="Bahia">BA</option>
+                                                <option value="Ceara">CE</option>
+                                                <option value="Distrito Federal">DF</option>
+                                                <option value="Espirito Santo">ES</option>
+                                                <option value="Goias">GO</option>
+                                                <option value="Maranhao">MA</option>
+                                                <option value="Minas Gerais">MG</option>
+                                                <option value="Mato Grosso do Sul">MS</option>
+                                                <option value="Mato Grosso">MT</option>
+                                                <option value="Para">PA</option>
+                                                <option value="Paraiba">PB</option>
+                                                <option value="Pernambuco">PE</option>
+                                                <option value="Piaui">PI</option>
+                                                <option value="Parana">PR</option>
+                                                <option value="Rio de Janeiro">RJ</option>
+                                                <option value="Rio Grande do Norte">RN</option>
+                                                <option value="Rondonia">RO</option>
+                                                <option value="Roraima">RR</option>
+                                                <option value="Rio Grande do Sul">RS</option>
+                                                <option value="Santa Catarina">SC</option>
+                                                <option value="Sergipe">SE</option>
+                                                <option value="Sao Paulo">SP</option>
+                                                <option value="Tocantins">TO</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <label for="cep">CEP</label>
+                                            <input type="text" class="form-control" id="cep" name="cep" maxlength="8">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <p class="chlg-desc-section">
+                                        <strong class="text-success">TRABALHO</strong> - Você pode enviar até dois trabalhos, se estiver submetendo seu segundo trabalho indique abaixo.
+                                    </p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="radio-inline">
+                                        <input class="chlg-radio-btn" type="radio" name="rating" value="primeiro_trabalho" checked/> <span class="chlg-sel-trabalho">1º Trabalho</span>
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input class="chlg-radio-btn" type="radio" name="rating" value="segundo_trabalho" /> <span class="chlg-sel-trabalho">2º Trabalho</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <p class="chlg-mg-text">
+                                        Arquivo compactado contendo todos os documentos elencados no Anexo 7 do edital do App Legislativo 2017.
+                                    </p>
+                                </div>
+                                <div class="form-group">
+                                    <label class="chlg-label-extra" for="inputfile">Arquivo compactado da proposta</label>
+                                    <input class="chlg-input-extra" type="file" id="inputfile" name="inputfile" data-bv-file="true" data-bv-file-maxsize="2000000" data-fv-file-message="Arquivo inválido">
+                                </div>
+                                <hr>
+                                <button type="submit" class="btn btn-warning btn-lg">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- partial:../../partials/scripts.html -->
+        <script src="/js/vendor.js"></script>
+        <noscript>Seu browser não tem suporte a javascript!</noscript>
+        <script src="/js/all-scripts.min.js"></script>
+        <noscript>Seu browser não tem suporte a javascript!</noscript>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
+        <noscript>Seu browser não tem suporte a javascript!</noscript>
+        <!-- partial -->
+
+        <!-- partial:../../partials/footer.html -->
+        <!--validação rodapé acessibilidade role="contentinfo"-->
+      <div class="container-fluid" id="chlg-footer" role="contentinfo">
+          <section class="chlg-bg-footer">
+              <h2 class="sr-only">>Contato e localização</h2>
+              <div class="container">
+                  <div class="row chlg-text-footer">
+                      <div class="col-md-2 col-sm-12">
+                          <i class="chlg-logo-challenge"></i>
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                          <p class="chlg-footer-tt text-muted"><strong>DESAFIO.LEG.BR</strong></p>
+                          <p class="chlg-footer-desc text-muted">Câmara dos Deputados - Palácio do Congresso Nacional<br>Praça dos Três Poderes - Brasília - DF</p>
+                          <p class="chlg-footer-desc text-muted">CEP 70160-900 - E-mail: contato@desafio.camara.leg.br</p>
+                      </div>
+                      <div class="col-md-2 col-sm-12">
+                          <a href="http://www2.camara.leg.br/"><i class="chlg-logo-camara"></i><span class="sr-only">Câmara dos
+      Deputados (link externo)</span></a>
+                      </div>
+                      <!--<div class="col-md-2 col-sm-6">
+                          <p>Redes Sociais</p>
+                          <ul>
+                              <li>
+                                  <a href="https://twitter.com/DesafioLegBr/"><i class="chlg-logo-twitter"></i><span class="sr-only">Twitter do Desafio.leg.br</span></a>
+                              </li>
+                              <li>
+                                  <a href="https://www.facebook.com/DesafioLegBr/"><i class="chlg-logo-face"></i><span class="sronly">Facebook
+      do Desafio.leg.br</span></a>
+                              </li>
+                          </ul>
+                      </div>-->
+                  </div>
+              </div>
+          </section>
+      </div>
+      <!-- partial -->
+    </body>
+</html>

@@ -1,0 +1,335 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index: 1000;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align:center;
+    line-height:160px;
+
+}
+.header.shrink {
+    height: 100px;
+    line-height:80px;
+}
+.header h1 a
+{
+    font-size:40px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header.shrink h1 a
+{
+    font-size:24px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/** BEGIN MOBILE THEMING  **/
+#xprize-timeline {
+  height: 1100px;
+  margin-top: 1em;
+  box-sizing: border-box;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 18px;
+}
+/** Event Text */
+.event-text {
+  color: #000
+}
+/** Date Theming  */
+.event-wrapper .event-date {
+  color: #333;
+  margin-bottom: 0.35em;
+  font-weight: bold;
+}
+.event-marker {
+  background-color: #333;
+}
+
+/* Font Sizing for different sizes */
+@media screen and (max-width: 480px) {
+  #xprize-timeline {
+  font-size: 12px;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #xprize-timeline {
+  font-size: 19px;
+  line-height: 20px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  #xprize-timeline {
+  font-size: 12px;
+  line-height: 13px;
+}
+}
+@media screen and (min-width: 768px) {
+  #xprize-timeline {
+  max-width: 1216px;
+  height: 323px;
+}
+}
+/* Draw a line down the center */
+#center-line {
+  background-color: #333;
+  position: absolute;
+  height: 86%;
+  width: 3px;
+  top: 10%;
+  left: calc(50% - 1.5px);
+}
+/* Create Dots for Center Line */
+#center-line:before, #center-line:after {
+  content: '\2022';
+  font-size: 35px;
+  line-height: 0;
+  position: absolute;
+  color: #333;
+}
+#center-line:before {
+  left: -6px;
+  top: -1px;
+}
+#center-line:after {
+  right: -5px;
+  bottom: 0;
+}
+.event-wrapper {
+  color: #FFFFFF;
+  height: 20%;
+  list-style: none;
+}
+/** Event Marker is the Branching Line from the center to the text */
+.event-marker {
+  display: inline-block;
+  height: 3px;
+  width: 15%;
+  position: relative;
+  top: 25px;
+}
+.event-wrapper.even .event-marker {
+  left: 0;
+}
+.event-container {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  width: 50%;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+.event-wrapper.odd .event-date, .event-wrapper.odd .event-text {
+  padding: 0 20% 0 10%;
+}
+.event-wrapper.even .event-date, .event-wrapper.even .event-text {
+  padding: 0 10% 0 20%;
+}
+.column-b {
+  height: 86%;
+  position: absolute;
+  top: 12%;
+  width: 35%;
+}
+.event-wrapper.odd {
+  left: 5%;
+  text-align: right;
+}
+.event-wrapper.even {
+  left: 100%;
+  width: 100%;
+  position: absolute;
+  margin-top: -80px;
+}
+.event-container .event-marker:before, .column-b .event-marker:before {
+  content: '\2022';
+  font-size: 35px;
+  line-height: 0;
+  position: absolute;
+  color: #333;
+}
+/** Center the end-cap dots over the line */
+.event-wrapper.odd .event-marker:before {
+  left: -6px;
+  top: -1px;
+}
+.event-wrapper.even .event-marker:before {
+  right: -6px;
+  top: -1px;
+}
+
+/** END MOBLE BEGIN DESKTOP THEMING */
+@media screen and (min-width: 768px) {
+  #center-line {
+    width: 94%;
+    height: 3px;
+    top: calc(50% - 1.5px);
+    left: 3%;
+  }
+  #center-line:after {
+    top: 0;
+  }
+  .event-wrapper, .event-wrapper.even {
+    width: 20%;
+  }
+  .event-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    margin-left: calc(20% * -0.55);
+  }
+  .event-wrapper.odd {
+    top: 0px;
+    position: relative;
+    vertical-align: bottom;
+    left: auto;
+    text-align: left;
+  }
+  .event-wrapper.odd .event-date, .event-wrapper.odd .event-text {
+    position: relative;
+    padding: 0 5% 0 5%;
+    top: -20px;
+  }
+  .event-wrapper.even {
+    top: 145px;
+    position: relative;
+    vertical-align: top;
+    height: 120px;
+    max-height: 120px;
+    left: auto;
+    width: 25%;
+    margin-top: 0;
+  }
+  .event-wrapper.even .event-date, .event-wrapper.even .event-text {
+    padding: 0 5% 0 5%;
+  }
+  .event-container {
+    max-width: 100%;
+    width: auto;
+    position: absolute;
+    bottom: 50%;
+    box-sizing: border-box;
+    left: 15%;
+    height: auto;
+    top: auto;
+  }
+  .event-container {
+    padding: 0;
+    text-align: left;
+  }
+  .event-date, .event-text {
+    padding: 0 5% 0 5%;
+  }
+  .event-marker {
+    display: inline-block;
+    margin: auto;
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    top: auto;
+  }
+  .event-container .event-marker:before {
+    left: calc(35px * -0.3);
+    top: calc(35px * -0.13);
+  }
+  .event-wrapper.even .event-marker {
+    top: -140px;
+    left: auto;
+  }
+  .event-wrapper.even .event-marker:before {
+    left: -6px;
+    bottom: 0;
+    top: auto;
+  }
+}
+
+/*  filter image*/
+.tint {
+  cursor: pointer;
+  background: #fbae40;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+}
+.tint:before {
+  content: "";
+  display: block;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+.tint2{
+  cursor: default;
+  /*cursor: pointer;*/
+  background: rgb(63, 123, 177);
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+}
+.tint2:before {
+  content: "";
+  display: block;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+.tint3{
+  cursor: default;
+  /*cursor: pointer;*/
+  background: #3f4448;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+}
+.tint3:before {
+  content: "";
+  display: block;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+/*style button*/
+.btn-default:hover {
+  color: #333;
+  background-color: white;
+  border-color: #adadad;
+}
+
+span.icon-change.glyphicon.glyphicon-plus {
+  float: right;
+  font-weight: none;
+  margin-top: 2px;
+  color: #ccc;
+}
+
+span.icon-change.glyphicon.glyphicon-minus {
+  float: right;
+  font-weight: none;
+  margin-top: 2px;
+  color: #ccc;
+}

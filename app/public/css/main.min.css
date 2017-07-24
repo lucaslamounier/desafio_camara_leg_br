@@ -1,0 +1,3914 @@
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+header[role=banner] {
+    position: absolute;
+    width: 100%
+}
+
+header[role=banner] ul {
+    list-style: none;
+    padding: 0
+}
+
+header[role=banner] a {
+    color: transparent
+}
+
+header[role=banner] a:focus {
+    color: #fff
+}
+
+.container-fluid.chlg-bg-banner {
+    background: #3975b4
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction {
+    background-image: url(../img/ilustrations/banner-top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 568px;
+    height: 568px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 {
+    margin-top: 50px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 i.chlg-brand {
+    background-image: url(../img/logo-challenge.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 290px;
+    display: block
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-slogan {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #fff;
+    width: 275px;
+    line-height: 38px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-slogan span {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 5px 0 -25px 0;
+    display: block
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 .chlg-lk-more {
+    background-image: url(../img/images/bg-white-btn.png);
+    margin-top: 20px;
+    display: block;
+    width: 200px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 .chlg-lk-more a.chlg-text-lk {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: block
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 .chlg-lk-more:hover {
+    background-image: url(../img/images/bg-white-btn-02.png);
+    margin-top: 20px;
+    display: block;
+    width: 200px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 .chlg-lk-more:hover a.chlg-text-lk:hover {
+    padding: 10px;
+    color: #2a598a;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: block
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-value {
+    font-weight: 700;
+    color: #8eedf8;
+    font-size: 50px;
+    line-height: 30px;
+    margin-top: 65px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-value i {
+    background-image: url(../img/icons/money.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    display: block;
+    float: left;
+    margin-right: 10px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-value span.chlg-text-money {
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-value span.chlg-value-desc {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-top: 0
+}
+
+.container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-slogan-secondary {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container {
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul {
+    margin: 0 15px;
+    padding: 0;
+    list-style-type: none
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal {
+    border-top: solid 2px #eee;
+    border-right: solid 2px #eee;
+    border-bottom: solid 2px #eee;
+    height: 260px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a:hover .row {
+    background: #e9eff5;
+    height: 258px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a {
+    color: #333
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-5 i.chlg-icon-portal {
+    background-image: url(../img/icons/portal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 170px 170px;
+    display: block;
+    widows: 170px;
+    height: 170px;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-tt {
+    font-size: 26px;
+    width: 100%;
+    padding: 10px 10px 0 0;
+    line-height: 34px;
+    font-weight: 700;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-value-awards {
+    font-size: 55px;
+    width: 100%;
+    color: orange;
+    font-weight: 700;
+    margin: 0
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 span.btn-start {
+    font-size: 18px;
+    border: solid 2px #eee;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    margin-top: 15px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a:hover .row .col-md-7 span.btn-start {
+    font-size: 18px;
+    border: solid 2px #fff;
+    background: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app {
+    border: solid 2px #eee;
+    height: 260px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a:hover .row {
+    background: #e9eff5;
+    height: 258px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a {
+    color: #333
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-5 i.chlg-icon-app {
+    background-image: url(../img/icons/app.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 170px 170px;
+    display: block;
+    widows: 170px;
+    height: 170px;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-tt {
+    font-size: 26px;
+    width: 100%;
+    padding: 10px 10px 0 0;
+    line-height: 34px;
+    font-weight: 700;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-value-awards {
+    font-size: 55px;
+    width: 100%;
+    color: orange;
+    font-weight: 700;
+    margin: 0
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 span.btn-start {
+    font-size: 18px;
+    border: solid 2px #eee;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    margin-top: 15px
+}
+
+.container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a:hover .row .col-md-7 span.btn-start {
+    font-size: 18px;
+    border: solid 2px #fff;
+    background: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-more.parallax-window {
+    height: 540px;
+    background: 0 0
+}
+
+.container-fluid.chlg-bg-more.parallax-window section#chlg-more .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-more.parallax-window section#chlg-more .container .row .col-md-10.col-md-offset-1 .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #a76b4c;
+    margin: auto;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-more.parallax-window section#chlg-more .container .row .col-md-10.col-md-offset-1 h2.chlg-tt-sections {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    color: #5e3e2d
+}
+
+.container-fluid.chlg-bg-more.parallax-window section#chlg-more .container .row .col-md-10.col-md-offset-1 p.text-center {
+    font-size: 24px;
+    color: #5e3e2d;
+    padding: 0 10px
+}
+
+.container-fluid.chlg-bg-how-to-participate {
+    background: #fadfc3
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate {
+    margin-bottom: 60px
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #e2bb96;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row p.chlg-part-tt-top.text-center {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 24px
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul {
+    list-style-type: none
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 p.chlg-part-tt.text-center {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #333
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 p.chlg-part-des.text-center {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-indi.chlg-participate-individually-off {
+    background-image: url(../img/ilustrations/individually-off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-indi.chlg-participate-individually-on {
+    background-image: url(../img/ilustrations/individually-on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-indi.chlg-participate-individually-on-msg-one {
+    background-image: url(../img/ilustrations/individually-on-msg-one.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-indi.chlg-participate-individually-on-msg-two {
+    background-image: url(../img/ilustrations/individually-on-msg-two.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-team.chlg-participate-team-off {
+    background-image: url(../img/ilustrations/team-off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-team.chlg-participate-team-on {
+    background-image: url(../img/ilustrations/team-on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-team.chlg-participate-team-on-msg {
+    background-image: url(../img/ilustrations/team-on-msg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-part.chlg-participate-company-off {
+    background-image: url(../img/ilustrations/company-off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-part.chlg-participate-company-on {
+    background-image: url(../img/ilustrations/company-on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-part.chlg-participate-company-on-msg-one {
+    background-image: url(../img/ilustrations/company-on-msg-one.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 i.chlg-part.chlg-participate-company-on-msg-two {
+    background-image: url(../img/ilustrations/company-on-msg-two.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px 250px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-bg-news {
+    margin-bottom: 30px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #ee8900;
+    margin: auto;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg {
+    height: 600px;
+    color: #fff;
+    overflow: hidden;
+    padding-right: 0
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg p.chlg-txt-title {
+    font-size: 40px;
+    position: absolute;
+    z-index: 10;
+    padding: 10px 30px 30px 40px;
+    color: #fff;
+    line-height: 48px;
+    margin-top: -566px;
+    font-weight: 700;
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, .62)
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg p.chlg-txt-des {
+    font-size: 26px;
+    position: absolute;
+    z-index: 10;
+    padding: 10px 30px 30px 40px;
+    color: #fff;
+    margin-top: -400px;
+    line-height: 28px;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, .62)
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg img.chlg-news-images {
+    opacity: .2;
+    display: block;
+    filter: grayscale(100%);
+    height: 100%;
+    width: 100%
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 {
+    padding: 0
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg {
+    height: 300px;
+    color: #fff;
+    overflow: hidden
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg p.chlg-txt-title {
+    font-size: 30px;
+    position: absolute;
+    z-index: 10;
+    width: 94%;
+    line-height: 36px;
+    padding: 10px 20px 20px 40px;
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, .62);
+    color: #fff;
+    margin-top: -270px;
+    font-weight: 700
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg p.chlg-txt-des {
+    font-size: 20px;
+    position: absolute;
+    z-index: 10;
+    padding: 10px 20px 20px 40px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .62);
+    color: #fff;
+    margin-top: -220px;
+    width: 95%;
+    line-height: 23px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg img.chlg-news-images {
+    opacity: .2;
+    display: block;
+    filter: grayscale(100%);
+    height: 100%;
+    width: 100%
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg {
+    height: 300px;
+    color: #fff;
+    overflow: hidden
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg p.chlg-txt-title {
+    font-size: 30px;
+    line-height: 34px;
+    position: absolute;
+    z-index: 10;
+    width: 94%;
+    padding: 10px 20px 20px 40px;
+    text-shadow: 2px 1px 7px rgba(0, 0, 0, .62);
+    color: #fff;
+    margin-top: -270px;
+    font-weight: 700
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg p.chlg-txt-des {
+    font-size: 20px;
+    position: absolute;
+    z-index: 10;
+    padding: 10px 32px 20px 40px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .62);
+    color: #fff;
+    margin-top: -225px;
+    line-height: 23px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg img.chlg-news-images {
+    opacity: .2;
+    display: block;
+    filter: grayscale(100%);
+    height: 100%;
+    width: 100%
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-4.col-md-offset-4 {
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-4.col-md-offset-4 a.chlg-btn-more-news {
+    background: #4e5158;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 39px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-4.col-md-offset-4 a.chlg-btn-more-news:hover {
+    background: #4e5158;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 39px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-4.col-md-offset-4 p.chlg-btn-more-news {
+    background: #4e5158;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 39px
+}
+
+.container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-4.col-md-offset-4 p.chlg-btn-more-news:hover {
+    background: #4e5158;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 39px
+}
+
+.container-fluid.chlg-bg-newslatter {
+    background: #4e5158;
+    height: 450px
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #f0ad4e;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 p.text-center.chlg-msg {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #fff
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group.has-feedback.has-error .col-sm-9 small.help-block {
+    color: #fff!important
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group.has-feedback.has-error .col-sm-9 input#email {
+    height: 46px;
+    font-size: 2rem;
+    text-transform: lowercase
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group.has-feedback.has-error .col-sm-9 i.form-control-feedback.bv-no-label.glyphicon-remove.glyphicon {
+    margin-top: 6px
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group.has-feedback.has-success .col-sm-9 small.help-block {
+    color: #fff!important
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group.has-feedback.has-success .col-sm-9 input#email {
+    height: 46px;
+    font-size: 2rem;
+    text-transform: lowercase
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group.has-feedback.has-success .col-sm-9 i.form-control-feedback.bv-no-label.glyphicon-ok.glyphicon {
+    margin-top: 6px
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group .col-sm-9 input {
+    height: 46px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0
+}
+
+.container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group .col-sm-3 button.btn.btn-warning.btn-lg {
+    border-radius: 0;
+    padding: 10px 40px;
+    color: #222;
+    font-weight: 700
+}
+
+.container-fluid.chlg-list-news {
+    margin-top: 100px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-list-news .container .row .col-md-10.col-md-offset-1 {
+    border-bottom: solid 1px #eee;
+    padding-bottom: 20px
+}
+
+.container-fluid.chlg-list-news .container .row .col-md-10.col-md-offset-1 a {
+    color: #ee8900;
+    text-decoration: none
+}
+
+.container-fluid.chlg-list-news .container .row .col-md-10.col-md-offset-1 a p.chlg-news-tt-list {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 40px
+}
+
+.container-fluid.chlg-list-news .container .row .col-md-10.col-md-offset-1 p.chlg-news-autor {
+    color: #333;
+    font-weight: 700;
+    line-height: 10px
+}
+
+.container-fluid.chlg-list-news .container .row .col-md-10.col-md-offset-1 p.chlg-news-date {
+    color: #333;
+    line-height: 10px;
+    margin-bottom: 20px
+}
+
+.container-fluid.chlg-list-news .container .row .col-md-10.col-md-offset-1 p.chlg-news-des-list {
+    font-size: 2.25rem;
+    line-height: 2.85rem
+}
+
+#chlg-footer {
+    background: #222;
+    height: 280px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer {
+    margin-top: 70px;
+    margin-bottom: 20px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 a i.chlg-logo-camara {
+    background-image: url(../img/logo-camara-vertical.png);
+    background-repeat: no-repeat;
+    background-size: 150px 40px;
+    height: 40px;
+    width: 150px;
+    opacity: .5;
+    display: block;
+    margin: 34px auto
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 a:hover i.chlg-logo-camara {
+    background-image: url(../img/logo-camara-vertical.png);
+    background-repeat: no-repeat;
+    background-size: 150px 40px;
+    height: 40px;
+    width: 150px;
+    opacity: 1;
+    display: block;
+    margin: 34px auto
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 i.chlg-logo-challenge {
+    background-image: url(../img/logo-desafio-wb.png);
+    background-repeat: no-repeat;
+    background-size: 130px 117px;
+    width: 130px;
+    height: 117px;
+    display: block;
+    margin: 0 auto
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-6 p.chlg-footer-tt.text-muted {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 0;
+    font-weight: 700;
+    color: #ccc
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-6 p.chlg-footer-desc.text-muted {
+    line-height: 20px;
+    color: #ccc
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 p {
+    margin-top: 18px;
+    text-align: center;
+    color: #ccc
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul {
+    list-style-type: none
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul li {
+    width: 35px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul li a i.chlg-logo-face {
+    background-image: url(../img/icons/chlg-facebook-on.png);
+    background-repeat: no-repeat;
+    opacity: .5;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-top: 8px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul li a:hover i.chlg-logo-face {
+    background-image: url(../img/icons/chlg-facebook-on.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-top: 8px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul li {
+    width: 35px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul li a i.chlg-logo-twitter {
+    background-image: url(../img/icons/chlg-twitter-on.png);
+    background-repeat: no-repeat;
+    opacity: .5;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    margin-left: 50px
+}
+
+#chlg-footer section.chlg-bg-footer .container .row.chlg-text-footer .col-md-2 ul li a:hover i.chlg-logo-twitter {
+    background-image: url(../img/icons/chlg-twitter-on.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    margin-left: 50px
+}
+
+.container-fluid.chlg-bg-banner-app {
+    background: #3975b4;
+    height: 350px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner {
+    background-image: url(../img/ilustrations/app-legislative.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 350px;
+    height: 350px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 i.chlg-brand {
+    background-image: url(../img/logo-challenge.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 290px;
+    display: block;
+    margin-top: 20px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-slogan-app {
+    color: #fff;
+    max-width: 380px;
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 35px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-value-app {
+    font-weight: 700;
+    color: #8eedf8;
+    font-size: 50px;
+    line-height: 30px;
+    margin-top: 30px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-value-app i {
+    background-image: url(../img/icons/money.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    display: block;
+    float: left;
+    margin-right: 10px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-value-app span.chlg-text-money-app {
+    font-size: 30px;
+    line-height: 20px
+}
+
+.container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-value-app span.chlg-value-desc-app {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-top: 8px
+}
+
+.container-fluid section#chlg-app-requirements .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid section#chlg-app-requirements .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #ee8900;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid section#chlg-app-requirements .container .row h2 {
+    font-size: 40px;
+    font-weight: 700
+}
+
+.container-fluid section#chlg-app-requirements .container .row p.chlg-desc-section {
+    font-size: 24px
+}
+
+.container-fluid section#chlg-app-requirements .container .row .col-md-4.chlg-app-requirements-itens p.chlg-tt-app-req.text-center {
+    font-size: 24px
+}
+
+.container-fluid section#chlg-app-requirements .container .row .col-md-4.chlg-app-requirements-itens p.chlg-des-app-req.text-center {
+    font-size: 20px
+}
+
+.container-fluid section#chlg-app-requirements .container .row .col-md-4.chlg-app-requirements-itens i.chlg-item-app-one {
+    background-image: url(../img/icons/req-app-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 170px;
+    height: 170px;
+    display: block;
+    margin-top: 40px
+}
+
+.container-fluid section#chlg-app-requirements .container .row .col-md-4.chlg-app-requirements-itens i.chlg-item-app-two {
+    background-image: url(../img/icons/req-app-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 170px;
+    height: 170px;
+    display: block;
+    margin-top: 40px
+}
+
+.container-fluid section#chlg-app-requirements .container .row .col-md-4.chlg-app-requirements-itens i.chlg-item-app-three {
+    background-image: url(../img/icons/req-app-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 170px;
+    height: 170px;
+    display: block;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-portal-notice-bg {
+    background: #f5f5f5;
+    height: 500px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital {
+    background-image: url(../img/images/border-button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 54%;
+    background-position-y: 130px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital:hover {
+    background: #028665
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital {
+    background: #00bb8c;
+    padding: 0 10px 0 10px;
+    margin: 40px 30px;
+    color: #fff;
+    text-align: center;
+    height: 90px;
+    margin-top: 165px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital a {
+    color: #fff;
+    text-decoration: none
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital a .col-md-2.col-sm-2 i.fa.fa-check {
+    font-size: 60px;
+    margin-top: 10px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital a .col-md-10.col-sm-10 h2 {
+    font-size: 34px;
+    margin-top: 24px;
+    font-weight: 700;
+    text-align: center
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 p.text-center {
+    color: #999;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 p.text-center span.chlg-data {
+    color: #777;
+    font-weight: 700
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content {
+    border-bottom: 1px solid #ccc;
+    margin: 70px 50px 0 50px;
+    padding-bottom: 10px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content a .col-md-2.col-sm-2 i.fa.fa-book {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content a .col-md-10.col-sm-10.chlg-rules h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content a .col-md-10.col-sm-10.chlg-rules p {
+    color: #999;
+    margin: 0
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content a:hover .col-md-2.col-sm-2 i.fa.fa-book {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content a:hover .col-md-10.col-sm-10.chlg-rules h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-rules-content a:hover .col-md-10.col-sm-10.chlg-rules p {
+    color: #999;
+    margin: 0
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents {
+    margin: 0 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents a .col-md-2.col-sm-2 i.fa.fa-comments {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents a .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents a .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents a:hover .col-md-2.col-sm-2 i.fa.fa-comment {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents a:hover .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-contents a:hover .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content {
+    margin: 0 50px;
+    padding-bottom: 20px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content a .col-md-2.col-sm-2 i.fa.fa-comment {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content a .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content a .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content a:hover .col-md-2.col-sm-2 i.fa.fa-comment {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content a:hover .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-faq-content a:hover .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row {
+    margin: 0 50px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row a .col-md-2.col-sm-2 i.fa.fa-picture-o {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row a .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row a .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row a:hover .col-md-2.col-sm-2 i.fa.fa-picture-o {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row a:hover .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row a:hover .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-app-notice-bg {
+    background: #f5f5f5;
+    height: 500px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital {
+    background-image: url(../img/images/border-button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 54%;
+    background-position-y: 130px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital:hover {
+    background: #028665
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital {
+    background: #00bb8c;
+    padding: 0 10px 0 10px;
+    margin: 40px 30px;
+    color: #fff;
+    text-align: center;
+    height: 90px;
+    margin-top: 165px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital a {
+    color: #fff;
+    text-decoration: none
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital a .col-md-2.col-sm-2 i.fa.fa-check {
+    font-size: 60px;
+    margin-top: 10px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital a .col-md-10.col-sm-10 h2 {
+    font-size: 34px;
+    margin-top: 24px;
+    font-weight: 700;
+    text-align: center
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 p.text-center {
+    color: #999;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 p.text-center span.chlg-data {
+    color: #777;
+    font-weight: 700
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 50px 0 50px;
+    padding-bottom: 10px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content a .col-md-2.col-sm-2 i.fa.fa-book {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content a .col-md-10.col-sm-10.chlg-rules h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content a .col-md-10.col-sm-10.chlg-rules p {
+    color: #999;
+    margin: 0
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content a:hover .col-md-2.col-sm-2 i.fa.fa-book {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content a:hover .col-md-10.col-sm-10.chlg-rules h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-rules-content a:hover .col-md-10.col-sm-10.chlg-rules p {
+    color: #999;
+    margin: 0
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents {
+    margin: 0 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents a .col-md-2.col-sm-2 i.fa.fa-comments {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents a .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents a .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents a:hover .col-md-2.col-sm-2 i.fa.fa-comment {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents a:hover .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-contents a:hover .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content {
+    margin: 0 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content a .col-md-2.col-sm-2 i.fa.fa-comment {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content a .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content a .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content a:hover .col-md-2.col-sm-2 i.fa.fa-comment {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content a:hover .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-faq-content a:hover .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content {
+    margin: 0 50px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a .col-md-2.col-sm-2 i.fa.fa-picture-o {
+    font-size: 50px;
+    color: #999;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a .col-md-10.col-sm-10 {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a .col-md-10.col-sm-10 h2 {
+    font-size: 24px;
+    color: #00bb8c
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a:hover .col-md-2.col-sm-2 i.fa.fa-picture-o {
+    font-size: 50px;
+    color: #777;
+    margin-top: 24px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a:hover .col-md-10.col-sm-10.chlg-cp-faq {
+    padding-top: 12px
+}
+
+.container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-img-content a:hover .col-md-10.col-sm-10.chlg-cp-faq h2 {
+    font-size: 24px;
+    color: #028665
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative {
+    margin-top: 40px
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .chlg-faq-tt {
+    font-size: 50px;
+    color: #000;
+    text-align: center
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 p.chlg-faq-sbtt {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 p.chlg-faq-des {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    color: #777
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 p.chlg-faq-des span.chlg-email.text-primary {
+    font-size: 16px;
+    color: #ec971f
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 a {
+    color: #ec971f
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .chlg-msg-send-email p.text-center {
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    background: #f5f5f5;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 4px;
+    color: #ee8900;
+    word-wrap: break-word
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar:hover {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    background: #eee;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 4px;
+    color: #ee8900;
+    word-wrap: break-word
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion {
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion .chlg-faq-questions-bar .icon-change.glyphicon.glyphicon-plus {
+    float: left;
+    padding: 0 10px
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion .chlg-faq-questions-bar .icon-change.glyphicon.glyphicon-minus {
+    float: left;
+    padding: 0 10px
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .collapse.in .chlg-faq-pad {
+    padding: 10px
+}
+
+.container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .collapsing .chlg-faq-pad {
+    padding: 10px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara {
+    margin-top: 40px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .chlg-faq-tt {
+    font-size: 50px;
+    color: #000;
+    text-align: center
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 p.chlg-faq-sbtt {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 p.chlg-faq-des {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    color: #777
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 p.chlg-faq-des span.chlg-email.text-primary {
+    font-size: 16px;
+    color: #ec971f
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 a {
+    color: #ec971f
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .colapse.in.chlg-faq-pad {
+    word-wrap: break-word
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .chlg-msg-send-email p.text-center {
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    background: #f5f5f5;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 4px;
+    color: #ee8900;
+    word-wrap: break-word
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar:hover {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    background: #eee;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 4px;
+    color: #ee8900;
+    word-wrap: break-word
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion {
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion .chlg-faq-questions-bar .icon-change.glyphicon.glyphicon-plus {
+    float: left;
+    padding: 0 10px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion .chlg-faq-questions-bar .icon-change.glyphicon.glyphicon-minus {
+    float: left;
+    padding: 0 10px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .collapse.in .chlg-faq-pad {
+    padding: 10px
+}
+
+.container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .collapsing .chlg-faq-pad {
+    padding: 10px
+}
+
+.container-fluid.chlg-app-awards-bg {
+    background: #eee
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #c1c5c9;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row h2 {
+    font-size: 40px;
+    font-weight: 700
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row p.chlg-desc-section {
+    font-size: 24px
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-4 i.chlg-app-awards-ranking-on-01 {
+    margin-top: 20px;
+    background-image: url(../img/ilustrations/ranking-app-on-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 420px;
+    height: 450px;
+    display: block
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-4 i.chlg-app-awards-ranking-on-02 {
+    background-image: url(../img/ilustrations/ranking-app-on-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 420px;
+    height: 450px;
+    display: block
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-4 i.chlg-app-awards-ranking-on-03 {
+    background-image: url(../img/ilustrations/ranking-app-on-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 420px;
+    height: 450px;
+    display: block
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-12 i.chlg-app-awards-ranking-off {
+    background-image: url(../img/ilustrations/ranking-app-off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 438px;
+    height: 438px;
+    display: block;
+    margin-top: 40px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-12 i.chlg-app-awards-ranking-on {
+    background-image: url(../img/ilustrations/ranking-app-on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 438px;
+    height: 438px;
+    display: block;
+    margin-top: 40px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-app-timeline-bg section#chlg-app-timeline .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-app-timeline-bg section#chlg-app-timeline .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #ee8900;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-app-timeline-bg section#chlg-app-timeline .container .row h2 {
+    font-size: 40px;
+    font-weight: 700
+}
+
+.container-fluid.chlg-app-timeline-bg section#chlg-app-timeline .container .row p.chlg-desc-section {
+    font-size: 24px
+}
+
+.container-fluid.chlg-bg-banner-portal {
+    background: #3975b4;
+    height: 350px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner {
+    background-image: url(../img/ilustrations/new-portal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 350px;
+    height: 350px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 i.chlg-brand {
+    background-image: url(../img/logo-challenge.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 290px;
+    display: block;
+    margin-top: 20px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-slogan-portal {
+    color: #fff;
+    max-width: 380px;
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 35px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-value-portal {
+    font-weight: 700;
+    color: #8eedf8;
+    font-size: 50px;
+    line-height: 30px;
+    margin-top: 30px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-value-portal i {
+    background-image: url(../img/icons/money.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    display: block;
+    float: left;
+    margin-right: 10px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-value-portal span.chlg-text-money-portal {
+    font-size: 30px;
+    line-height: 20px
+}
+
+.container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-value-portal span.chlg-value-desc-portal {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #ee8900;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row p.chlg-desc-section {
+    font-size: 24px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row .col-md-4.chlg-portal-requirements-itens p.chlg-tt-portal-req {
+    font-size: 24px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row .col-md-4.chlg-portal-requirements-itens p.chlg-des-portal-req {
+    font-size: 20px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row .col-md-4.chlg-portal-requirements-itens i.chlg-item-portal-one {
+    background-image: url(../img/icons/req-portal-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 170px;
+    height: 170px;
+    display: block;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row .col-md-4.chlg-portal-requirements-itens i.chlg-item-portal-two {
+    background-image: url(../img/icons/req-portal-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 170px;
+    height: 170px;
+    display: block;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row .col-md-4.chlg-portal-requirements-itens i.chlg-item-portal-three {
+    background-image: url(../img/icons/req-portal-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 170px;
+    height: 170px;
+    display: block;
+    margin-top: 40px
+}
+
+.container-fluid.chlg-portal-awards-bg {
+    background: #eee
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #c1c5c9;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row p.chlg-desc-section {
+    font-size: 24px
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row .col-md-4 i.chlg-portal-awards-ranking-on-01 {
+    margin-top: 20px;
+    background-image: url(../img/ilustrations/ranking-portal-on-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 420px;
+    height: 450px;
+    display: block
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row .col-md-4 i.chlg-portal-awards-ranking-on-02 {
+    background-image: url(../img/ilustrations/ranking-portal-on-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 420px;
+    height: 450px;
+    display: block
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row .col-md-4 i.chlg-portal-awards-ranking-on-03 {
+    background-image: url(../img/ilustrations/ranking-portal-on-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 420px;
+    height: 450px;
+    display: block
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row .col-md-12 i.chlg-portal-awards-ranking-off {
+    background-image: url(../img/ilustrations/ranking-portal-off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 438px;
+    height: 438px;
+    display: block;
+    margin-top: 40px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-portal-awards-bg section.chlg-portal-awards .container .row .col-md-12 i.chlg-portal-awards-ranking-on {
+    background-image: url(../img/ilustrations/ranking-portal-on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 438px;
+    height: 438px;
+    display: block;
+    margin-top: 40px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-portal-timeline-bg section#chlg-portal-timeline .container {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-portal-timeline-bg section#chlg-portal-timeline .container .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000
+}
+
+.container-fluid.chlg-portal-timeline-bg section#chlg-portal-timeline .container .row .chlg-line-section {
+    width: 120px;
+    height: 2px;
+    background: #ee8900;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.container-fluid.chlg-portal-timeline-bg section#chlg-portal-timeline .container .row p.chlg-desc-section {
+    font-size: 24px
+}
+
+.container-fluid.chlg-top-navbar .navbar {
+    height: 100px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-top-navbar .navbar .container .navbar-header a.navbar-brand {
+    padding: 10px
+}
+
+.container-fluid.chlg-top-navbar .navbar .container .navbar-header a.navbar-brand i.chlg-logo-camara-int {
+    background-image: url(../img/logo-challenge.png);
+    background-repeat: no-repeat;
+    background-size: 220px 80px;
+    height: 80px;
+    width: 220px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.container-fluid.chlg-top-navbar .navbar-default {
+    background-color: #222;
+    border-color: #222
+}
+
+.container-fluid.chlg-top-navbar .navbar-default .navbar-nav>.active>a,
+.container-fluid.chlg-top-navbar .navbar-default .navbar-nav>.active>a:focus,
+.container-fluid.chlg-top-navbar .navbar-default .navbar-nav>.active>a:hover {
+    color: #ccc;
+    background-color: #000
+}
+
+.container-fluid.chlg-clean-navbar {
+    background: #222
+}
+
+.container-fluid.chlg-clean-navbar .navbar {
+    height: 80px
+}
+
+.container-fluid.chlg-clean-navbar .navbar .container .navbar-header a.navbar-brand {
+    padding: 10px
+}
+
+.container-fluid.chlg-clean-navbar .navbar .container .navbar-header a.navbar-brand i.chlg-logo-camara-int {
+    background-image: url(../img/logo-challenge.png);
+    background-repeat: no-repeat;
+    background-size: 220px 80px;
+    background-position: center;
+    height: 80px;
+    width: 220px;
+    display: block
+}
+
+.container-fluid.chlg-news-detail .container {
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-news-detail .container .row .col-md-10.col-md-offset-1 h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 50px
+}
+
+.container-fluid.chlg-news-detail .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem
+}
+
+.container-fluid.chlg-news-detail .container .row .col-md-8.col-md-offset-2 p.chlg-news-autor {
+    color: #333;
+    font-weight: 700;
+    line-height: 10px
+}
+
+.container-fluid.chlg-news-detail .container .row .col-md-8.col-md-offset-2 p.chlg-news-date {
+    color: #333;
+    line-height: 10px;
+    margin-bottom: 40px
+}
+
+.container-fluid.chlg-news-detail .container .row .col-md-8.col-md-offset-2 p.chlg-news-description {
+    color: #333;
+    line-height: 26px;
+    font-size: 24px;
+    margin-bottom: 20px
+}
+
+.container-fluid.chlg-news-detail .container .row .col-md-8.col-md-offset-2 .embed-responsive.embed-responsive-16by9.chlg-news-video {
+    margin-bottom: 20px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container {
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row .col-md-10.col-md-offset-1 h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row .col-md-8.col-md-offset-2 p.chlg-steps {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row .col-md-8.col-md-offset-2 p.chlg-desc-steps {
+    text-align: center;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type {
+    margin-top: 100px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select {
+    border-right: solid 1px #ccc;
+    height: 200px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a {
+    background: #00bb8c;
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin: 50px auto 10px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-5 {
+    padding-right: 0
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-5 i.fa.fa-users {
+    font-size: 50px;
+    padding: 20px;
+    display: block;
+    text-align: right
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 {
+    padding-left: 0
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 p.chlg-pf-tt {
+    font-size: 30px;
+    margin-top: 24px;
+    color: #fff
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select .row p {
+    font-size: 20px;
+    color: #ccc
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a {
+    background: #00bb8c;
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin: 50px auto 10px
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-5 {
+    padding-right: 0
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-5 i.fa.fa-building {
+    font-size: 50px;
+    padding: 20px;
+    display: block;
+    text-align: right
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 {
+    padding-left: 0
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 p.chlg-pf-tt {
+    font-size: 30px;
+    margin-top: 24px;
+    color: #fff
+}
+
+.container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select .row p {
+    font-size: 20px;
+    color: #ccc
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal {
+    min-height: 800px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container {
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-10.col-md-offset-1 h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 a {
+    color: #ee8900
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 p.chlg-steps {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 p.chlg-desc-steps {
+    text-align: center;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 p.chlg-desc-section {
+    margin-top: 50px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal span.glyphicon.glyphicon-ok {
+    font-size: 50px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal-des {
+    font-size: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-alert-success-des {
+    font-size: 1.6rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-alert-success-des a.chlg-contact {
+    font-weight: 700;
+    color: #ee8900;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal span.glyphicon.glyphicon-ok {
+    font-size: 50px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal-des {
+    font-size: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-alert-success-des {
+    font-size: 1.6rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-alert-success-des a.chlg-contact {
+    font-weight: 700;
+    color: #ee8900;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.has-feedback .row .col-xs-6 input.chlg-input-extra {
+    width: 100%
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group.has-feedback label.radio-inline {
+    margin-left: 0
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group .chlg-mg-text {
+    margin-top: 15px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group input.chlg-radio-btn {
+    margin-top: -10px;
+    width: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group span.chlg-sel-trabalho {
+    margin-right: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group select.form-control.chlg-ufs {
+    height: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group p.chlg-desc-section {
+    margin-top: 20px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group p.help-block.alert.alert-warning span.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group label.radio-inline .form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: -4px;
+    margin-right: -50px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group label {
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group label.chlg-label-extra {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group input {
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group input.chlg-input-extra {
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pf .form-group .form-control:focus {
+    border-color: #f0ad4e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.has-feedback .row .col-xs-6 input.chlg-input-extra {
+    width: 100%
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group.has-feedback label.radio-inline {
+    margin-left: 0
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group .chlg-mg-text {
+    margin-top: 15px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group input.chlg-radio-btn {
+    margin-top: -10px;
+    width: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group span.chlg-sel-trabalho {
+    margin-right: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group select.form-control.chlg-ufs {
+    height: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group p.chlg-desc-section {
+    margin-top: 20px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group p.help-block.alert.alert-warning span.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group label.radio-inline .form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: -4px;
+    margin-right: -50px
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group label {
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group label.chlg-label-extra {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group label span.chlg-desc-coordenador {
+    color: #999;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group input {
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group input.chlg-input-extra {
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-novo-portal section#chlg-envia-form-novo-portal .container .row .col-md-8.col-md-offset-2 form.chlg-send-portal-pj .form-group .form-control:focus {
+    border-color: #f0ad4e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative {
+    min-height: 800px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container {
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-10.col-md-offset-1 h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 a {
+    color: #ee8900
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 p.chlg-steps {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 p.chlg-desc-steps {
+    text-align: center;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 p.chlg-desc-section {
+    margin-top: 50px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal span.glyphicon.glyphicon-ok {
+    font-size: 50px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal-des {
+    font-size: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-alert-success-des {
+    font-size: 1.6rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-alert-success-des a.chlg-contact {
+    font-weight: 700;
+    color: #ee8900;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal span.glyphicon.glyphicon-ok {
+    font-size: 50px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal-des {
+    font-size: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-alert-success-des {
+    font-size: 1.6rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-alert-success-des a.chlg-contact {
+    font-weight: 700;
+    color: #ee8900;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.has-feedback .row .col-xs-6 input.chlg-input-extra {
+    width: 100%
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group.has-feedback label.radio-inline {
+    margin-left: 0
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group .chlg-mg-text {
+    margin-top: 40px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group input.chlg-radio-btn {
+    margin-top: -10px;
+    width: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group span.chlg-sel-trabalho {
+    margin-right: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group select.form-control.chlg-ufs {
+    height: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group p.chlg-desc-section {
+    margin-top: 50px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group p.help-block.alert.alert-warning span.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group label.radio-inline .form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: -4px;
+    margin-right: -50px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group label {
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group label.chlg-label-extra {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group input {
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group input.chlg-input-extra {
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pf .form-group .form-control:focus {
+    border-color: #f0ad4e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-error .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-6.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-2.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 40px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.chlg-resize-form.has-feedback.has-success .row .col-md-4.col-xs-12 i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px;
+    margin-right: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.has-feedback .row .col-xs-6 input.chlg-input-extra {
+    width: 100%
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group.has-feedback label.radio-inline {
+    margin-left: 0
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group .chlg-mg-text {
+    margin-top: 40px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group input.chlg-radio-btn {
+    margin-top: -10px;
+    width: 20px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group span.chlg-sel-trabalho {
+    margin-right: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group select.form-control.chlg-ufs {
+    height: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group p.chlg-desc-section {
+    margin-top: 50px;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group i.form-control-feedback.glyphicon.glyphicon-remove {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group i.form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: 16px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group p.help-block.alert.alert-warning span.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group label.radio-inline .form-control-feedback.glyphicon.glyphicon-ok {
+    margin-top: -4px;
+    margin-right: -50px
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group label span.chlg-desc-coordenador {
+    color: #999;
+    font-size: 1.7rem
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group label {
+    font-size: 2.25rem;
+    line-height: 2.85rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group label.chlg-label-extra {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group input {
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group input.chlg-input-extra {
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-app-legislative section#chlg-envia-form-app-legislative .container .row .col-md-8.col-md-offset-2 form.chlg-send-app-pj .form-group .form-control:focus {
+    border-color: #f0ad4e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #f0ad4e
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter {
+    min-height: 800px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container {
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-10.col-md-offset-1 h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 a {
+    color: #ee8900
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 p.chlg-steps {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 p.chlg-desc-steps {
+    text-align: center;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal span.glyphicon.glyphicon-ok {
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-proposal-des {
+    font-size: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-alert-success-des {
+    font-size: 1.6rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-danger p.chlg-alert-success-des a.chlg-contact {
+    font-weight: 700;
+    color: #ee8900;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal {
+    display: block;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal span.glyphicon.glyphicon-ok {
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-proposal-des {
+    font-size: 2rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-alert-success-des {
+    font-size: 1.6rem
+}
+
+.container-fluid.chlg-bg-envia-form-newslatter section#chlg-envia-form-newslatter .container .row .col-md-8.col-md-offset-2 .help-block.alert.alert-success p.chlg-alert-success-des a.chlg-contact {
+    font-weight: 700;
+    color: #ee8900;
+    font-weight: 400
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container {
+    margin-bottom: 50px
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row .col-md-10.col-md-offset-1 h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 50px
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2rem
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row .col-md-8.col-md-offset-2 p.chlg-steps {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row .col-md-8.col-md-offset-2 p.chlg-desc-steps {
+    text-align: center;
+    font-size: 2.25rem
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type {
+    margin-top: 100px
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select {
+    border-right: solid 1px #ccc;
+    height: 200px
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a {
+    background: #00bb8c;
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin: 50px auto 10px
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-5 {
+    padding-right: 0
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-5 i.fa.fa-users {
+    font-size: 50px;
+    padding: 20px;
+    display: block;
+    text-align: right
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 {
+    padding-left: 0
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 p.chlg-pf-tt {
+    font-size: 30px;
+    margin-top: 24px;
+    color: #fff
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select .row p {
+    font-size: 20px;
+    color: #ccc
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a {
+    background: #00bb8c;
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin: 50px auto 10px
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-5 {
+    padding-right: 0
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-5 i.fa.fa-building {
+    font-size: 50px;
+    padding: 20px;
+    display: block;
+    text-align: right
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 {
+    padding-left: 0
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 p.chlg-pf-tt {
+    font-size: 30px;
+    margin-top: 24px;
+    color: #fff
+}
+
+.container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select .row p {
+    font-size: 20px;
+    color: #ccc
+}
+
+@media (max-width:414px) {
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .collapse.in .chlg-faq-pad {
+        padding: 10px;
+        word-wrap: break-word
+    }
+    .container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .chlg-faq-tt {
+        font-size: 40px;
+        color: #000;
+        text-align: center
+    }
+    .container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 p.chlg-faq-sbtt {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+    .container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar {
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        background: #f5f5f5;
+        height: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 4px;
+        color: #ee8900;
+        word-wrap: break-word
+    }
+    .container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar span {
+        display: none
+    }
+    .container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar:hover {
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        background: #eee;
+        height: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 4px;
+        color: #ee8900;
+        word-wrap: break-word
+    }
+    .container-fluid.chlg-faq-app-legislative-bg .container.chlg-faq-app-legislative .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar:hover span {
+        display: none
+    }
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .chlg-faq-tt {
+        font-size: 40px;
+        color: #000;
+        text-align: center
+    }
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 p.chlg-faq-sbtt {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar {
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        background: #f5f5f5;
+        height: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 4px;
+        color: #ee8900;
+        word-wrap: break-word
+    }
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar span {
+        display: none
+    }
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar:hover {
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        background: #eee;
+        height: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 4px;
+        color: #ee8900;
+        word-wrap: break-word
+    }
+    .container-fluid.chlg-faq-portal-camara-bg .container.chlg-faq-portal-camara .row .col-md-10.col-md-offset-1 .accordion div.chlg-faq-questions-bar:hover span {
+        display: none
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type {
+        margin-top: 0
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type {
+        margin-top: 0
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row .col-md-10.col-md-offset-1 h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 80px;
+        font-weight: 700;
+        font-size: 3rem
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row .col-md-10.col-md-offset-1 h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 80px;
+        font-weight: 700;
+        font-size: 3rem
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3rem
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row .col-md-10.col-md-offset-1 p.chlg-news-tt-internal {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3rem
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-5 i.fa.fa-users {
+        font-size: 50px;
+        padding: 20px;
+        display: block;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-5 i.fa.fa-users {
+        font-size: 50px;
+        padding: 20px;
+        display: block;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 p.chlg-pf-tt {
+        font-size: 30px;
+        margin-top: 24px;
+        color: #fff;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 p.chlg-pf-tt {
+        font-size: 30px;
+        margin-top: 24px;
+        color: #fff;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pf-select {
+        border-right: none;
+        height: 200px
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select {
+        border-right: none;
+        height: 200px
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-5 i.fa.fa-building {
+        font-size: 50px;
+        padding: 20px;
+        display: block;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-5 i.fa.fa-building {
+        font-size: 50px;
+        padding: 20px;
+        display: block;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 p.chlg-pf-tt {
+        font-size: 30px;
+        margin-top: 24px;
+        color: #fff;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 p.chlg-pf-tt {
+        font-size: 30px;
+        margin-top: 24px;
+        color: #fff;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-form-app-legislative section#chlg-form-app-legislative .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 {
+        padding-left: none
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pj-select a .row .col-md-7 {
+        padding-left: none
+    }
+    .container-fluid.chlg-bg-form-novo-portal section#chlg-form-novo-portal .container .row.chlg-select-type .col-md-6.chlg-pf-select a .row .col-md-7 {
+        padding-left: none
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction {
+        background-image: none
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 a i.chlg-brand {
+        margin: 0 auto
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-slogan {
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 .chlg-lk-more {
+        width: 100%
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 .chlg-lk-more:hover {
+        width: 100%
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-value {
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 p.chlg-value i {
+        display: none
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app {
+        border: solid 2px #eee;
+        height: 470px
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row {
+        text-align: center
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal {
+        border-top: none;
+        border-left: solid 2px #eee;
+        border-right: solid 2px #eee;
+        border-bottom: solid 2px #eee;
+        height: 470px
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row {
+        text-align: center
+    }
+    .container-fluid.chlg-bg-more.parallax-window {
+        height: 990px
+    }
+    .container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul {
+        padding: 0;
+        margin: 0
+    }
+    .container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 {
+        margin-bottom: 50px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 h2 {
+        display: none
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg .tint a p.chlg-txt-title {
+        font-size: 3rem;
+        line-height: 3.5rem
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg .tint a p.chlg-txt-des {
+        margin-top: -380px;
+        font-size: 2.4rem;
+        line-height: 3rem
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg {
+        height: 330px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg .tint2 p.chlg-txt-title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 0 40px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg .tint2 p.chlg-txt-des {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: -210px;
+        padding: 10px 40px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg {
+        height: 380px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg .tint3 p.chlg-txt-title {
+        margin-top: -320px;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 0 40px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg .tint3 p.chlg-txt-des {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: -210px;
+        padding: 10px 40px
+    }
+    .container-fluid.chlg-bg-newslatter {
+        height: 550px
+    }
+    .container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 form.form-horizontal .form-group .col-sm-3 button.btn.btn-warning.btn-lg {
+        margin-top: 20px
+    }
+    .container-fluid#chlg-footer {
+        height: 500px;
+        text-align: center
+    }
+    .container-fluid#chlg-footer .chlg-bg-footer .container .row.chlg-text-footer .col-md-8.col-sm-12 {
+        margin-top: 40px
+    }
+    .container-fluid.chlg-bg-banner-app {
+        height: 470px
+    }
+    .container-fluid.chlg-bg-banner-app section#chlg-app-banner {
+        background-image: none
+    }
+    .container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 a i.chlg-brand {
+        margin: 30px auto;
+        background-size: 250px 90px;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 250px;
+        display: block
+    }
+    .container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-slogan-app {
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-value-app {
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner-app section#chlg-app-banner .container .row .col-md-12 p.chlg-value-app i.chlg-icon-money {
+        display: none
+    }
+    .container-fluid section#chlg-app-requirements .container .row h2 {
+        font-size: 3rem;
+        margin-bottom: 20px
+    }
+    .container-fluid section#chlg-app-requirements .container .row p.chlg-desc-section {
+        font-size: 2rem
+    }
+    .container-fluid.chlg-app-awards-bg.visible-xs section.chlg-app-awards .container .row h2 {
+        font-size: 3rem;
+        margin-bottom: 20px
+    }
+    .container-fluid.chlg-app-awards-bg.visible-xs section.chlg-app-awards .container .row p.chlg-desc-section {
+        font-size: 2rem
+    }
+    .container-fluid.chlg-app-timeline-bg section#chlg-app-timeline .container .row h2 {
+        font-size: 3rem;
+        font-weight: 700
+    }
+    .container-fluid.chlg-app-notice-bg {
+        height: 1000px
+    }
+    .container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital {
+        background-image: none
+    }
+    .container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital {
+        height: auto;
+        padding: 0 10px 15px 10px;
+        margin: 10px 10px
+    }
+    .container-fluid.chlg-app-notice-bg section#chlg-app-notice .container .row .col-md-6 {
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner-portal {
+        height: 470px
+    }
+    .container-fluid.chlg-bg-banner-portal section#chlg-portal-banner {
+        background-image: none
+    }
+    .container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 a i.chlg-brand {
+        margin: 30px auto;
+        background-size: 250px 90px;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 250px;
+        display: block
+    }
+    .container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-slogan-portal {
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-value-portal {
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid.chlg-bg-banner-portal section#chlg-portal-banner .container .row .col-md-12 p.chlg-value-portal i.chlg-icon-money {
+        display: none
+    }
+    .container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row h2 {
+        font-size: 3rem;
+        margin-bottom: 20px
+    }
+    .container-fluid.chlg-bg-portal-requirements section#chlg-portal-requirements .container .row p.chlg-desc-section {
+        font-size: 2rem
+    }
+    .container-fluid.chlg-portal-awards-bg.visible-xs section.chlg-portal-awards .container .row h2 {
+        font-size: 3rem;
+        margin-bottom: 20px
+    }
+    .container-fluid.chlg-portal-awards-bg.visible-xs section.chlg-portal-awards .container .row p.chlg-desc-section {
+        font-size: 2rem
+    }
+    .container-fluid.chlg-portal-timeline-bg section#chlg-portal-timeline .container .row h2 {
+        font-size: 3rem;
+        font-weight: 700
+    }
+    .container-fluid.chlg-portal-notice-bg {
+        height: 1000px
+    }
+    .container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital {
+        background-image: none
+    }
+    .container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row.chlg-bg-edital .chlg-lk-edital {
+        height: auto;
+        padding: 0 10px 15px 10px;
+        margin: 10px 10px
+    }
+    .container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 {
+        text-align: center
+    }
+    .container-fluid.chlg-portal-notice-bg section#chlg-portal-notice .container .row .col-md-6 .row {
+        margin: -15px;
+        margin-bottom: 10px
+    }
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) {
+    .container-fluid.chlg-bg-banner section#chlg-introduction .container .row .col-md-12 i.chlg-brand {
+        background-image: url(../img/logo-challenge.png);
+        background-size: 250px 90px;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 250px;
+        display: block
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-value-awards {
+        font-size: 40px;
+        width: 100%;
+        color: orange;
+        font-weight: 700;
+        margin: 0
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-value-awards {
+        font-size: 40px;
+        width: 100%;
+        color: orange;
+        font-weight: 700;
+        margin: 0
+    }
+    .container-fluid.chlg-bg-more.parallax-window {
+        height: 1090px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg .tint a p.chlg-txt-des {
+        font-size: 2.4rem;
+        line-height: 3rem
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg .tint2 p.chlg-txt-des {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: -180px;
+        padding: 10px 40px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg .tint3 p.chlg-txt-des {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: -235px;
+        padding: 10px 40px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg .tint3 p.chlg-txt-title {
+        margin-top: -333px;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 0 40px
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (-webkit-min-device-pixel-ratio:2) {
+    .container {
+        width: 100%
+    }
+    .container-fluid.chlg-bg-banner section#chlg-introduction {
+        background-image: url(../img/ilustrations/banner-top.png);
+        background-repeat: no-repeat;
+        background-size: 590px 320px;
+        height: 550px;
+        background-position-x: 90%
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal {
+        border-right: solid 2px #eee;
+        border-bottom: solid 2px #eee;
+        border-left: solid 2px #eee;
+        border-top: none;
+        height: 430px
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app {
+        border: solid 2px #eee;
+        height: 430px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-tt {
+        font-size: 40px;
+        width: 70%;
+        line-height: 44px;
+        margin: 0 auto;
+        text-align: center
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-tt {
+        font-size: 40px;
+        width: 70%;
+        line-height: 44px;
+        margin: 0 auto;
+        text-align: center
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-value-awards {
+        font-size: 55px;
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-value-awards {
+        font-size: 55px;
+        width: 100%;
+        text-align: center
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-awards-desc {
+        width: 60%;
+        text-align: center;
+        font-size: 26px;
+        margin: 0 auto
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-awards-desc {
+        width: 60%;
+        text-align: center;
+        font-size: 26px;
+        margin: 0 auto
+    }
+    li#chlg-individually-bg {
+        padding: 50px;
+        width: 93%
+    }
+    .container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 p.chlg-part-tt.text-center {
+        font-size: 40px
+    }
+    .container-fluid.chlg-bg-how-to-participate section#chlg-how-to-participate .container .row .col-md-12 .row ul li.col-md-4 p.chlg-part-des.text-center {
+        font-size: 24px
+    }
+    .container-fluid.chlg-bg-more.parallax-window {
+        height: 630px;
+        background: 0 0
+    }
+    .container-fluid.chlg-bg-news section.chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg .tint a img.chlg-news-images.img-responsive {
+        width: 100%!important
+    }
+    li#chlg-team-bg {
+        padding: 50px;
+        width: 93%
+    }
+    li#chlg-company-bg {
+        padding: 50px;
+        width: 93%
+    }
+    .col-sm-10 {
+        width: 70%;
+        margin-left: 30px
+    }
+    .col-sm-2 {
+        width: 16%
+    }
+    #chlg-footer {
+        background: #000;
+        height: 575px
+    }
+    #chlg-footer .container .row.chlg-text-footer .col-md-2.col-sm-12 a i.chlg-logo-camara {
+        background-image: url(../img/logo-camara-vertical.png);
+        background-repeat: no-repeat;
+        background-size: 198px 56px;
+        background-position: center;
+        height: 56px;
+        width: 198px;
+        margin: 0 auto;
+        opacity: .8;
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 30px
+    }
+    #chlg-footer .container .row.chlg-text-footer .col-md-2 i.chlg-logo-challenge {
+        background-image: url(../img/logo-desafio-wb.png);
+        background-repeat: no-repeat;
+        background-size: 130px 117px;
+        width: 130px;
+        height: 117px;
+        display: block;
+        margin: 0 auto 50px
+    }
+    #chlg-footer .container .row.chlg-text-footer .col-md-8.col-sm-12 {
+        line-height: 20px;
+        color: #ccc;
+        text-align: center;
+        padding-top: 50px
+    }
+    .container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-12 i.chlg-app-awards-ranking-off {
+        background-image: url(../img/ilustrations/ranking-app-off.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 790px 350px;
+        height: 350px;
+        display: block;
+        margin-top: 40px;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row .col-md-12 i.chlg-app-awards-ranking-on {
+        background-image: url(../img/ilustrations/ranking-app-on.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 790px 350px;
+        height: 350px;
+        display: block;
+        margin-top: 40px;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .container-fluid section#chlg-app-requirements .container .row h2 {
+        font-size: 3rem;
+        font-weight: 700
+    }
+    .container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row h2 {
+        font-size: 3rem;
+        font-weight: 700
+    }
+    .container-fluid.chlg-app-timeline-bg section#chlg-app-timeline .container .row h2 {
+        font-size: 3rem;
+        font-weight: 700
+    }
+    .container-fluid section#chlg-app-requirements .container .row p.chlg-desc-section {
+        font-size: 2rem
+    }
+    .container-fluid.chlg-app-awards-bg section.chlg-app-awards .container .row p.chlg-desc-section {
+        font-size: 2rem
+    }
+    .container-fluid.chlg-app-notice-bg {
+        background: #f5f5f5;
+        height: 800px
+    }
+}
+
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:2) {
+    .container-fluid.chlg-bg-banner section#chlg-introduction {
+        background-image: url(../img/ilustrations/banner-top.png);
+        background-repeat: no-repeat;
+        background-size: 790px 430px;
+        height: 500px;
+        background-position-x: 90%
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-tt {
+        font-size: 30px;
+        width: 100%;
+        line-height: 30px;
+        margin: none;
+        text-align: left;
+        margin-top: 20px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-tt {
+        margin-top: 20px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app {
+        border: solid 2px#eee;
+        height: 310px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal {
+        border-top: solid 2px #eee!important;
+        border-right: solid 2px #eee;
+        border-bottom: solid 2px #eee;
+        border-left: none!important;
+        height: 310px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-tt {
+        font-size: 28px;
+        width: 100%;
+        line-height: 30px;
+        margin: none;
+        text-align: left
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-value-awards {
+        font-size: 40px;
+        width: 100%;
+        color: orange;
+        font-weight: 700;
+        margin: 0;
+        text-align: left
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-value-awards {
+        font-size: 40px;
+        width: 100%;
+        color: orange;
+        font-weight: 700;
+        margin: 0;
+        text-align: left
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app {
+        border: solid 2px #eee;
+        height: 260px
+    }
+    .container-fluid.chlg-bg-awards section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal {
+        border-right: solid 2px #eee;
+        border-bottom: solid 2px #eee;
+        border-left: solid 2px #eee;
+        border-top: none;
+        height: 260px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal a .row .col-md-7 p.chlg-awards-desc {
+        width: 100%;
+        text-align: left;
+        font-size: 25px;
+        margin: 0 auto;
+        line-height: 30px
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-app a .row .col-md-7 p.chlg-awards-desc {
+        width: 100%;
+        text-align: left;
+        font-size: 26px;
+        line-height: 30px;
+        margin: none
+    }
+    .container-fluid section#chlg-awards .container .row ul li.col-md-6.chlg-list-awards-portal {
+        border: solid 2px #eee;
+        height: 310px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg img.chlg-news-images {
+        opacity: .2;
+        display: block;
+        filter: grayscale(100%);
+        height: 100%;
+        width: 100%
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg img.chlg-news-images {
+        opacity: .2;
+        display: block;
+        filter: grayscale(100%);
+        height: 100%;
+        width: 100%
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg img.chlg-news-images {
+        opacity: .2;
+        display: block;
+        height: 100%;
+        filter: grayscale(100%);
+        width: 100%
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg p.chlg-txt-title {
+        margin-top: -560px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6.chlg-news-one-bg .tint a p.chlg-txt-des {
+        padding: 110px 30px 30px 40px;
+        margin-top: -460px
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-two-bg .tint2 p.chlg-txt-des {
+        margin-top: -220px!important
+    }
+    .container-fluid.chlg-bg-news section#chlg-news .container .row .col-md-12 .row.chlg-container-news .col-md-6 .row .col-md-12.chlg-news-three-bg .tint3 p.chlg-txt-des {
+        padding: 45px 32px 20px 40px;
+        margin-top: -220px!important
+    }
+    #chlg-footer {
+        background: #000;
+        height: 250px
+    }
+    #chlg-footer .container .row.chlg-text-footer .col-md-2.col-sm-12 a i.chlg-logo-camara {
+        background-image: url(../img/logo-camara-vertical.png);
+        background-repeat: no-repeat;
+        background-size: 198px 56px;
+        background-position: center;
+        height: 56px;
+        width: 198px;
+        margin: 0 auto;
+        opacity: .8;
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 30px
+    }
+    #chlg-footer .container .row.chlg-text-footer .col-md-2 i.chlg-logo-challenge {
+        background-image: url(../img/logo-desafio-wb.png);
+        background-repeat: no-repeat;
+        background-size: 130px 117px;
+        width: 130px;
+        height: 117px;
+        display: block;
+        margin: 0 auto 50px
+    }
+    #chlg-footer .container .row.chlg-text-footer .col-md-8.col-sm-12 {
+        line-height: 20px;
+        color: #ccc;
+        text-align: center;
+        padding-top: 0
+    }
+    .container-fluid.chlg-app-notice-bg {
+        background: #f5f5f5;
+        height: 550px
+    }
+    .container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 h2 {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #fff
+    }
+    .container-fluid.chlg-bg-newslatter section#chlg-newslatter .container .row .col-md-8.col-md-offset-2 p.text-center.chlg-msg {
+        font-size: 2rem;
+        margin-bottom: 40px;
+        color: #fff
+    }
+}

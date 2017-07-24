@@ -1,0 +1,175 @@
+
+/*
+
+rgb(165,181,179);
+rgb(252,252,252);
+rgb(213,219,219);
+rgb(122,150,146);
+rgb(87,128,122);
+
+*/
+
+body {
+	background-color: #ececec;
+}
+
+.painel-externo {
+	background-color: #ececec;
+}
+
+h3, h4 {
+	margin-top: 10px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+.lista-arquivos {
+	margin-top: 10px;
+}
+
+.lista-arquivos div {
+	padding: 5px;
+}
+
+.img-principal {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 20px;
+}
+
+.btn-primary {
+	background-color: #004A2F !important;
+    background-image: linear-gradient(to bottom,#004A2F,darkgreen 100%) !important;
+}
+
+.btn-primary:hover {
+	background-color: #004A2F !important;
+    background-image: linear-gradient(to bottom,darkgreen,#004A2F 100%) !important;	
+}
+
+.btn-primary:active {
+	background-color: #004A2F !important;
+    background-image: linear-gradient(to bottom,darkgreen,#004A2F 100%) !important;	
+}
+
+.btn-primary:visited {
+	
+}
+
+.btn-primary:focus {
+	
+}
+
+.div-logo {
+	padding: 10px 50px 10px 50px;
+}
+
+.titulo-sistema {
+    padding-left: 20px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.titulo-pagina {
+	text-align: center;
+	
+}
+
+.div-scrollable {
+	background-color: white;
+	overflow: auto;
+	overflow-y: auto;
+}
+
+.item-tarefa {
+	padding: 7px 15px !important;
+	margin-bottom: 2px;
+}
+
+.div-controls {
+	padding-left: 15px;
+}
+
+.input-tarefa {
+    width: 90%;
+    display: inline;	
+}
+
+.button-submit {
+	width: 25%;
+	display: inline;
+}
+
+.header-sistema {
+	background-color: #004A2F;
+	height: 80px;
+	text-align: left;
+	padding: 20px 0 20px 20px;
+}
+
+.footer-sistema {
+	background-color: #004A2F;
+	margin-top: 20px;
+	height: 80px;
+}
+
+.img-header {
+	width:300px;
+	height: auto;
+	padding-bottom: 15px;	
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.conteudo {
+	min-height: 460px;
+}
+
+.text-msg {
+	text-align: center;
+    letter-spacing: 0.4px;
+    padding: 5px 0;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+
+.form-sair {
+	padding-top: 5px;
+}
+
+
+.pagina-login {
+}
+
+.espaco-topo {
+	margin-top: 100px;
+}
+
+.espaco-laterais {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.reduz-margin-top {
+	margin-top: -20px;
+}
+
+.alert {
+	padding: 5px;
+}
+
+.p-texto p{
+	margin: 0 ;
+}
