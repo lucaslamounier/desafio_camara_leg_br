@@ -1,40 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-    <!-- partial:../../partials/head.html -->
-    <head>
-    <title>Desafio.leg.br</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="/img/dev-logos/desafio-fb.png"/>
-    <meta name="keywords" content="desafio, desafio.leg, desafio.leg.br, camara, parlamentar, governo, cidadania, participação popular, câmara dos deputados, concurso, concurso câmara, ideia inovadora.">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="É um convite à inovação e à participação popular feito pela Câmara dos Deputados. Cidadãos são estimulados a propor soluções para desafios reais do Poder Legislativo, podendo ganhar prêmios incríveis. Qualquer pessoa pode participar das competições – independentemente de idade ou experiência. Aceite o desafio de transformar o Poder Legislativo com uma ideia inovadora!">
-    <link rel="shortcut icon" href="/img/icons/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="/css/css-components.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/customized.min.css"/>
 
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>-->
-</head>
-    <!-- partial -->
-    <body>
-        <!-- partial:../../partials/navbar-clean.html -->
-        <div class="container-fluid chlg-clean-navbar">
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    <i id="chlg-logomarca" class="chlg-logo-camara-int img-responsive"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-</div>
-        <!-- partial -->
-        <div class="container-fluid chlg-bg-form-app-legislative">
-            <section id="chlg-form-app-legislative">
+<!-- header  -->
+{{> partials/header }}
+<!-- end header  -->
+
+<!-- nav-bar clean  -->
+  {{> partials/navbar-clean }}
+<!-- end nav-bar clean  -->
+
+<!-- Content -->
+<div class="container-fluid chlg-bg-form-app-legislative">
+    <section id="chlg-form-app-legislative">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
@@ -85,64 +60,8 @@
                     </div>
                 </div>
             </section>
-        </div>
-        <!-- partial:../../partials/scripts.html -->
-        <script src="/js/vendor.js"></script>
-        <noscript>Seu browser não tem suporte a javascript!</noscript>
-        <script src="/js/all-scripts.min.js"></script>
-        <noscript>Seu browser não tem suporte a javascript!</noscript>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
-        <noscript>Seu browser não tem suporte a javascript!</noscript>
-        <!-- partial -->
+</div>
+<!-- End content  -->
 
-        <!-- partial:../../partials/g-analytics.html -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-17416078-9', 'auto');
-          ga('send', 'pageview');
-        </script>
-
-        <!-- partial -->
-
-        <!-- partial:../../partials/footer.html -->
-        <!--validação rodapé acessibilidade role="contentinfo"-->
-        <div class="container-fluid" id="chlg-footer" role="contentinfo">
-            <section class="chlg-bg-footer">
-                <h2 class="sr-only">Contato e localização</h2>
-                <div class="container">
-                    <div class="row chlg-text-footer">
-                        <div class="col-md-2 col-sm-12">
-                            <i class="chlg-logo-challenge"></i>
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <p class="chlg-footer-tt text-muted"><strong>DESAFIO.LEG.BR</strong></p>
-                            <p class="chlg-footer-desc text-muted">Câmara dos Deputados - Palácio do Congresso Nacional<br>Praça dos Três Poderes - Brasília - DF</p>
-                            <p class="chlg-footer-desc text-muted">CEP 70160-900 - E-mail: contato@desafio.camara.leg.br</p>
-                        </div>
-                        <div class="col-md-2 col-sm-12">
-                            <a href="http://www2.camara.leg.br/"><i class="chlg-logo-camara"></i><span class="sr-only">Câmara dos
-        Deputados (link externo)</span></a>
-                        </div>
-                        <!--<div class="col-md-2 col-sm-6">
-                            <p>Redes Sociais</p>
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/DesafioLegBr/"><i class="chlg-logo-twitter"></i><span class="sr-only">Twitter do Desafio.leg.br</span></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/DesafioLegBr/"><i class="chlg-logo-face"></i><span class="sronly">Facebook
-        do Desafio.leg.br</span></a>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- partial -->
-    </body>
-</html>
+<!-- Footer  -->
+{{> partials/footer }}

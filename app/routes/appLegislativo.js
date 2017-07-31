@@ -12,7 +12,7 @@ module.exports = function(application){
           application.app.controllers.appLegislativo.avisosEsclarecimentosImpugnacoes(application, req, res);
       });
 
-      application.get('/desafios/app-legislativo/forms/aceite-desafio', function(req,res){
+      application.get('/desafios/app-legislativo/aceite-o-desafio', function(req,res){
           application.app.controllers.appLegislativo.aceiteDesafio(application, req, res);
       });
 };

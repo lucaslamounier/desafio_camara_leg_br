@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<!-- partial:partials/head-home.html -->
+<!-- header  -->
+{{> partials/header }}
 
-<head>
-    <title>Desafio.leg.br</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="img/dev-logos/desafio-fb.png" />
-    <meta name="keywords" content="desafio, desafio.leg, desafio.leg.br, camara, parlamentar, governo, cidadania, participação popular, câmara dos deputados, concurso, concurso câmara, ideia inovadora.">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="É um convite à inovação e à participação popular feito pela Câmara dos Deputados. Cidadãos são estimulados a propor soluções para desafios reais do Poder Legislativo, podendo ganhar prêmios incríveis. Qualquer pessoa pode participar das competições – independentemente de idade ou experiência. Aceite o desafio de transformar o Poder Legislativo com uma ideia inovadora!">
-    <link rel="shortcut icon" href="img/icons/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/css-components.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/customized.min.css" />
-
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>-->
-</head>
-<!-- partial -->
-
-<body>
-    <header role="banner" class="sr-only">
+<!-- Content  -->
+  <header role="banner" class="sr-only">
         <h1>Desafio.leg.br</h1>
         <div id="barraAcessibilidade">
             <p>Barra de Acessibilidade</p>
@@ -34,7 +14,9 @@
                 </li>
             </ul>
         </div>
-    </header>
+  </header>
+
+
     <div class="container-fluid chlg-bg-banner">
         <section id="chlg-introduction">
             <h2 class="sr-only">Suas soluções para o seu legislativo</h2>
@@ -96,7 +78,6 @@
             </div>
         </section>
     </div>
-
     <div class="container-fluid chlg-bg-more parallax-window" id="anchor1" data-parallax="scroll">
         <!--descrição do conteudo principal - acessibilidade-->
         <section id="chlg-more" role="main">
@@ -142,6 +123,8 @@
             </div>
         </section>
     </div>
+
+    <!-- Partial noticias  -->
     <div class="container-fluid chlg-bg-news">
         <section id="chlg-news">
             <div class="container">
@@ -149,40 +132,42 @@
                     <div class="col-md-12">
                         <h2 class="text-center">Notícias</h2>
                         <!--<div class="chlg-line-section"></div>-->
+
                         <div class="row chlg-container-news">
-                            <div class="col-md-6 chlg-news-one-bg">
-                                <div class="tint">
-                                    <a href="http://www2.camara.leg.br/camaranoticias/noticias/POLITICA/536431-CAMARA-LANCA-PORTAL-DESAFIO-NA-CAMPUS-PARTY-BRASILIA.html">
-                                            <img class="chlg-news-images img-responsive" src="img/images/campus-party-00.jpg" alt=""/>
-                                            <p class="chlg-txt-title">Câmara lança Portal Desafio na Campus Party Brasília</p>
-                                            <p class="chlg-txt-des">Objetivo é buscar na sociedade soluções que aproximem cidadãos do Parlamento; inscrições de trabalhos começam no dia 26</p>
-                                        </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-12 chlg-news-two-bg">
-                                        <div class="tint2">
-                                            <a href="https://www.youtube.com/watch?v=FHrePwvpyiQ&t=3s">
-                                                    <img class="chlg-news-images img-responsive" src="img/images/portal-00.jpg" alt=""/>
-                                                    <p class="chlg-txt-title">Assista à Palestra Decodificando a Democracia sobre Dados Abertos e Portal Desafio na Campus Party</p>
-                                                </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 chlg-news-three-bg">
-                                        <div class="tint3">
-                                            <!--<a href="https://www.facebook.com/DesafioLegBr">-->
-                                            <img class="chlg-news-images img-responsive" src="img/images/app-00.jpg" alt="" />
-                                            <p class="chlg-txt-title">Acompanhe os desafios por e-mail</p>
-                                            <p class="chlg-txt-des">As pessoas podem cadastrar e-mail para receber novidades e acompanhar os desafios em andamento.</p>
-                                            <!-- </a>-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                          <!-- Noticias container  -->
+                          {{#ultimaNoticia}}
+                              <div class="col-md-6 chlg-news-one-bg">
+                                  <div class="tint">
+                                      <a target="_blank" href="{{link}}">
+                                            <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
+                                            <p class="chlg-txt-title">{{title.rendered}}</p>
+                                            <p class="chlg-txt-des"> {{{excerpt.rendered}}} </p>
+                                      </a>
+                                  </div>
+                          </div>
+                          {{/ultimaNoticia}}
+
+                          <div class="col-md-6">
+                                  <div class="row">
+                                      {{#outrasNoticias}}
+                                      <div class="col-md-12 chlg-news-two-bg">
+                                          <div class="tint2">
+                                              <a target="_blank" href="{{link}}">
+                                                      <img class="chlg-news-images img-responsive" src="img/images/portal-00.jpg" alt=""/>
+                                                      <p class="chlg-txt-title">{{title.rendered}}</p>
+                                                  </a>
+                                          </div>
+                                      </div>
+                                      {{/outrasNoticias}}
+                                  </div>
+                           </div>
+
+                          <!-- End noticias container  -->
                         </div>
+
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-md-4 col-md-offset-4 text-center">
                         <!--<a href="noticias/lista/index.html" class="chlg-btn-more-news">Mais notícias</a>-->
@@ -192,101 +177,11 @@
             </div>
         </section>
     </div>
-    <!-- partial:partials/newslatter-home.html -->
-    <div class="container-fluid chlg-bg-newslatter">
-        <section id="chlg-newslatter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="text-center">Acompanhe os Desafios</h2>
-                        <p class="text-center chlg-msg">Deixe seu e-mail para acompanhar as novidades dos desafios</p>
-                        <form id="chlg-newslatter-validate" class="form-horizontal" action="/boletim/inscricao" method="post">
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <!--label visível para o leitor de tela-->
-                                    <label for="email" class="sr-only">E-mail</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="seu-email@provedor.com">
-                                </div>
-                                <!--padrão de links, botões acessibilidade-->
-                                <div class="col-sm-3 chlg-newslatter-btn text-center">
-                                    <button id="btnSubmeter" type="submit" class="btn btn-warning btn-lg">
-                                            Cadastrar <span class="sr-only">email para receber as novidades dos desafios</span>
-                                        </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!-- partial -->
+<!-- End content  -->
 
-    <!-- partial:partials/scripts-home.html -->
-    <script src="js/vendor.js"></script>
-    <noscript>Seu browser não tem suporte a javascript!</noscript>
-    <script src="js/all-scripts.min.js"></script>
-    <noscript>Seu browser não tem suporte a javascript!</noscript>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
-    <noscript>Seu browser não tem suporte a javascript!</noscript>
-    <!-- partial -->
+<!-- newslatter -->
+{{> partials/newslatter-home }}
 
-    <!-- partial:partials/g-analytics.html -->
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-17416078-9', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-    <!-- partial -->
-
-    <!-- partial:partials/footer.html -->
-    <!--validação rodapé acessibilidade role="contentinfo"-->
-    <div class="container-fluid" id="chlg-footer" role="contentinfo">
-        <section class="chlg-bg-footer">
-            <h2 class="sr-only">>Contato e localização</h2>
-            <div class="container">
-                <div class="row chlg-text-footer">
-                    <div class="col-md-2 col-sm-12">
-                        <i class="chlg-logo-challenge"></i>
-                    </div>
-                    <div class="col-md-8 col-sm-12">
-                        <p class="chlg-footer-tt text-muted"><strong>DESAFIO.LEG.BR</strong></p>
-                        <p class="chlg-footer-desc text-muted">Câmara dos Deputados - Palácio do Congresso Nacional<br>Praça dos Três Poderes - Brasília - DF</p>
-                        <p class="chlg-footer-desc text-muted">CEP 70160-900 - E-mail: contato@desafio.camara.leg.br</p>
-                    </div>
-                    <div class="col-md-2 col-sm-12">
-                        <a href="http://www2.camara.leg.br/"><i class="chlg-logo-camara"></i><span class="sr-only">Câmara dos
-        Deputados (link externo)</span></a>
-                    </div>
-                    <!--<div class="col-md-2 col-sm-6">
-                            <p>Redes Sociais</p>
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/DesafioLegBr/"><i class="chlg-logo-twitter"></i><span class="sr-only">Twitter do Desafio.leg.br</span></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/DesafioLegBr/"><i class="chlg-logo-face"></i><span class="sronly">Facebook
-        do Desafio.leg.br</span></a>
-                                </li>
-                            </ul>
-                        </div>-->
-                </div>
-            </div>
-        </section>
-    </div>
-    <!-- partial -->
-</body>
-
-</html>
+<!-- Footer -->
+{{> partials/footer }}
+<!-- End Partials  -->

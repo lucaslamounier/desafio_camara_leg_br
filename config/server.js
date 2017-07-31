@@ -33,6 +33,7 @@ consign()
     .include('app/routes')
     .then('app/models')
     .then('app/controllers')
+    .then('services')
     .into(app);
 
 /* Exportar o objeto app */

@@ -12,7 +12,7 @@ module.exports = function(application){
           application.app.controllers.novoPortal.aei(application, req, res);
       });
 
-      application.get('/desafios/novo-portal/forms/aceite-desafio', function(req,res){
+      application.get('/desafios/novo-portal/aceite-o-desafio', function(req,res){
           application.app.controllers.novoPortal.aceiteDesafio(application, req, res);
       });
 };

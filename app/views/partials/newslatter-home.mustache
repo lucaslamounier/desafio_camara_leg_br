@@ -1,0 +1,30 @@
+
+<!-- partial:partials/newslatter-home.mustache -->
+<div class="container-fluid chlg-bg-newslatter">
+    <section id="chlg-newslatter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="text-center">Acompanhe os Desafios</h2>
+                    <p class="text-center chlg-msg">Deixe seu e-mail para acompanhar as novidades dos desafios</p>
+                    <form id="chlg-newslatter-validate" class="form-horizontal" action="/boletim/inscricao" method="post">
+                        <div class="form-group">
+                            <div class="col-sm-9">
+                                <!--label visível para o leitor de tela-->
+                                <label for="email" class="sr-only">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="seu-email@provedor.com">
+                            </div>
+                            <!--padrão de links, botões acessibilidade-->
+                            <div class="col-sm-3 chlg-newslatter-btn text-center">
+                                <button id="btnSubmeter" type="submit" class="btn btn-warning btn-lg">
+                                        Cadastrar <span class="sr-only">email para receber as novidades dos desafios</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- partial -->

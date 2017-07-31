@@ -23,6 +23,7 @@
     "express-validator": "^3.2.1",
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.5",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "sync-request": "^4.1.0"
   }
 }
