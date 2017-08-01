@@ -1,40 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<!-- partial:../../partials/head.html -->
-<head>
-    <title>Desafio.leg.br</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="/img/dev-logos/desafio-fb.png"/>
-    <meta name="keywords" content="desafio, desafio.leg, desafio.leg.br, camara, parlamentar, governo, cidadania, participação popular, câmara dos deputados, concurso, concurso câmara, ideia inovadora.">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="É um convite à inovação e à participação popular feito pela Câmara dos Deputados. Cidadãos são estimulados a propor soluções para desafios reais do Poder Legislativo, podendo ganhar prêmios incríveis. Qualquer pessoa pode participar das competições – independentemente de idade ou experiência. Aceite o desafio de transformar o Poder Legislativo com uma ideia inovadora!">
-    <link rel="shortcut icon" href="/img/icons/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="/css/css-components.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/customized.min.css"/>
-
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>-->
-</head>
-<!-- partial -->
-
-<body>
-    <!-- partial:../../partials/navbar-clean.html -->
-    <div class="container-fluid chlg-clean-navbar">
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    <i id="chlg-logomarca" class="chlg-logo-camara-int img-responsive"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
-</div>
-    <!-- partial -->
-    <div class="container-fluid chlg-faq-portal-camara-bg">
+<!-- header  -->
+{{> partials/header }}
+<!-- navbar-clean  -->
+{{> partials/navbar-clean }}
+<!-- content -->
+<div class="container-fluid chlg-faq-portal-camara-bg">
         <div class="container chlg-faq-portal-camara">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -48,253 +17,80 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <h2>Avisos</h2>
-                    <div class="alert alert-info" role="alert">
-                        <p>Nenhum aviso publicado.</p>
-                    </div>
+                    {{^avisos}}
+                      <div class="alert alert-info" role="alert">
+                          <p>Nenhum aviso publicado.</p>
+                      </div>
+                    {{/avisos}}
+
+                    {{#avisos}}
+                        <div class="accordion" id="chlg-accordion">
+                            {{#avisos}}
+                                <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-{{id}}" data-parent="#chlg-accordion">
+                                    <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                        {{title.rendered}}
+                                </div>
+                                <div id="collapsible-{{id}}" class="collapse">
+                                    <div class="chlg-faq-pad">
+                                          <p>{{{content.rendered}}}</p>
+                                    </div>
+                                </div>
+                            {{/avisos}}
+                        </div>
+                    {{/avisos}}
                     <hr>
+
                     <h2>Esclarecimentos</h2>
-                    <div class="accordion" id="chlg-accordion">
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-1" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> Posso utilizar Frameworks (ex.: bootstrap/mdl) e Bibliotecas (ex.: jquery) abertas no projeto?
+                    {{#esclarecimentos}}
+                          <div class="accordion" id="chlg-accordion1">
 
-                        </div>
-                        <div id="collapsible-1" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Sim, a utilização de frameworks e bibliotecas abertas e livres é permitida. Entende-se por "abertas e livres" as que incluem seu código-fonte completo e podem ser utilizadas, reutilizadas, distribuídas e/ou alteradas sem
-                                    qualquer ônus para a Câmara dos Deputados.</p>
-                            </div>
-                        </div>
+                              <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-{{id}}" data-parent="#chlg-accordion1">
+                                  <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                  {{title.rendered}}
+                              </div>
+                              <div id="collapsible-{{id}}" class="collapse">
+                                  <div class="chlg-faq-pad">
+                                      <p>{{{content.rendered}}}</p>
+                                  </div>
+                              </div>
 
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-2" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> A estilização pode ser em arquivo externo, porque no edital há informação de que terei q disponibilizar o arquivo HTML para vocês, porém, lá não
-                            fala nada sobre estilização... vou ter que fazer tudo no arquivo HTML ou posso utilizar um arquivo CSS e JAVASCRIPT externo?
+                          </div>
+                    {{/esclarecimentos}}
 
+                    {{^esclarecimentos}}
+                        <div class="alert alert-info" role="alert">
+                            <p>Nenhum esclarecimento publicado.</p>
                         </div>
-                        <div id="collapsible-2" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Pode-se utilizar arquivos adicionais para folhas de estilos, scripts Javascript, imagens, etc. É importante ressaltar que esses arquivos devem compor o projeto, ou seja, devem estar contidos no arquivo compactado a ser
-                                    enviado, de forma que não haja dependências externas. O proponente é livre para criar a estrutura de pastas (diretórios) que conterá todos esses arquivos adicionais, no modelo mais adequado a seu projeto.</p>
-                            </div>
-                        </div>
+                    {{/esclarecimentos}}
 
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-3" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> Os itens na seção “2.4.6 TRANSPARÊNCIA E PARTICIPAÇÃO SOCIAL” estão indicando requisitos que só são possíveis serem construídos com um backend. Então
-                            acaba entrando em contradição, poderiam esclarecer esse ponto?
-
-                        </div>
-                        <div id="collapsible-3" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>No desenho do front-end devem ser previstos os elementos especificados no item “2.4.6 TRANSPARÊNCIA E PARTICIPAÇÃO SOCIAL”, mas não é necessário programar o backend para a realização das referidas ações. Por exemplo: em
-                                    uma tela de consulta deverá ser previsto algum elemento para permitir que o usuário realize o download do resultado da consulta em formato livre, mas não será necessário programar o backend que buscará as informações
-                                    e realizará o referido download. Outro exemplo: uma proposição deverá mostrar o elemento (botão) para compartilhamento no Facebook, mas não será necessário programar o código que, de fato, faça as chamadas ao Facebook
-                                    para o compartilhamento.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-4" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> Quanto ao uso de frameworks, é legalizado usar algum framework de frontend que no final gere um javascript com o HTML do sistema?
-
-                        </div>
-                        <div id="collapsible-4" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Considere os itens 2.4.1.3 e 2.4.2.1 do edital. De acordo com os padrões do W3C: HTML é usado para estruturar um documento, especificar seu conteúdo e estrutura; javascript pode tornar a página mais dinâmica, adicionando
-                                    algum comportamento. Além disso, considere que é preciso garantir “aparência e funcionamento semelhantes para os usuários em diferentes plataformas e navegadores”, o que deve incluir usuários que eventualmente não tenham
-                                    javascript habilitado. Em suma, não é permitido que se dependa do javascript para construir sua página HTML.</p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-5" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> Em um dos primeiros itens é citado que todos links presentes no sistema devem funcionar, isso se incorpora também em formulários e botões do compartilhamento?
-                            Pois eles requerem um backend.
-
-                        </div>
-                        <div id="collapsible-5" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Considerando o conjunto de páginas que integrem seu projeto, as ligações que existam entre elas devem ser implementadas, permitindo a navegação. Se o projeto prevê, por exemplo, uma página com um formulário de pesquisa
-                                    e uma página de resultados, o acionamento do botão de pesquisa deve provocar a navegação para a página de resultados (ainda que as duas páginas tenham conteúdo estático, visto que não haverá um back-end). </p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-6" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> O item 2.3 relaciona diversas páginas que atualmente fazem parte do escopo do sítio, pergunto, terei que desenvolver layouts para todos os links
-                            que existem lá? Exemplo: terei que fazer um layout para o que hoje acesso através do http://www2.camara.leg.br/camaranoticias/dinamico/ultimasNoticiasAgencia ou os links que estão no edital só são para termos base e utilizarmos
-                            como referência?
-                        </div>
-                        <div id="collapsible-6" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Os links expostos no edital são uma referência do conteúdo existente hoje. Não é necessário desenvolver os layouts para os links internos nem utilizar a mesma arquitetura existente atualmente.</p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-7" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> O item 2.4.6 TRANSPARÊNCIA E PARTICIPAÇÃO SOCIAL possui alguns subitens que me deixaram confuso, se possível gostaria de melhores informaçõe sobre
-                            esses subitens.
-                        </div>
-                        <div id="collapsible-7" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <!--resposta parte 1-->
-                                <blockquote>
-                                    <p>2.4.6.3 O portal deverá disponibilizar aos seus gestores ferramentas para a publicação de conteúdos e coleta de manifestações nas principais redes sociais, de forma automatizada e manual.</p>
-                                </blockquote>
-                                <p>
-                                    <strong>Pergunta</strong>: Esse tipo de situação não seria feita na parte backend?
-                                </p>
-                                <p>
-                                    <strong>Resposta</strong>: A interface do portal deverá prever facilidades para o compartilhamento de conteúdos nas mídias sociais. Além disso, deverá prever mecanismos que permitam disponibilizar para o usuário informações
-                                    coletadas pela Câmara de mídias sociais relacionadas aos seus conteúdos e serviços.
-                                </p>
-                                <!--resposta parte 2-->
-                                <blockquote>
-                                    <p>2.4.6.4 O portal deverá implementar, além de mecanismo próprio de recuperação de informações, estratégias para otimização de busca orgânica nos principais serviços da web.</p>
-                                </blockquote>
-                                <p>
-                                    <strong>Pergunta</strong>: O que seria mecanismo próprio de recuperação de informações? utilização de cookies?
-                                </p>
-                                <p>
-                                    <strong>Resposta</strong>: “Mecanismo próprio de recuperação de informações” é a busca existente no portal. Além dela, o projeto da interface deverá considerar técnicas de SEO (Search Engine Optimization), de forma
-                                    a facilitar a indexação de seus serviços e conteúdos por buscadores da internet.
-                                </p>
-                                <!--resposta parte 3-->
-                                <blockquote>
-                                    <p>2.4.6.5 O portal deverá implementar mecanismos que fomentem a participação da sociedade na construção de conteúdos da Câmara, como a possibilidade de revisão de textos ou a elaboração de descrição de imagens e vídeos
-                                        (closed caption). Outras possibilidades de crowd sourcing podem ser apresentadas pelos participantes do concurso.</p>
-                                </blockquote>
-                                <p>
-                                    <strong>Pergunta</strong>: Mais uma vez, só vejo isso sendo feito na parte de programação.
-                                </p>
-                                <p>
-                                    <strong>Resposta</strong>: O projeto deverá propor mecanismos de participação social. A Câmara dispõe hoje de mecanismos como o Fale Conosco e o Wikilegis. O objetivo aqui é que formas inovadoras de participação sejam
-                                    propostas no projeto de layout e arquitetura de informação do portal.
-                                </p>
-                                <!--resposta parte 4-->
-                                <blockquote>
-                                    <p>2.4.6.6 O portal deverá permitir aos cidadãos a criação e manutenção de espaços e eventos próprios, como um fórum de discussão sobre uma proposição ou um tema legislativo, bem como espaços para preparar e realizar eventos
-                                        legislativos virtuais (como videoconferências reunindo cidadãos e parlamentares). Essas soluções deverão considerar outros instrumentos próprios de participação da Câmara, como o e-Democracia.</p>
-                                </blockquote>
-                                <p>
-                                    <strong>Pergunta</strong>: Também vejo isso sendo implementado apenas utilizando programação.
-                                </p>
-                                <p>
-                                    <strong>Resposta</strong>: Reiterando o item anterior, o projeto deverá propor mecanismos de participação social. Na linha de eventos legislativos com participação virtual, temos hoje o Audiências Interativas, do e-Democracia.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-8" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> Gostaria de saber se o site da câmara possui relatórios de métricas de acesso ao site, por exemplo dados do "Google Analytics", ou quaisquer outro
-                            tipo de relatório; E se possui, se são abertos (eles são importantes para uma melhor avaliação de experiência de usuário).
-                        </div>
-                        <div id="collapsible-8" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Relatórios de métricas de acesso ao site da Câmara estão disponíveis, em formato PDF, no próprio site. Acesse o <a href="http://www.camara.leg.br">site da Câmara</a>, clique em “Sobre o Portal” na parte inferior direita
-                                    e depois em “Estatísticas” no menu à esquerda. Alternativamente, acesse diretamente a página de <a href="http://www2.camara.leg.br/sobre-o-portal/estatisticas">Estátísticas do Portal da Câmara</a>. Os relatórios em
-                                    PDF são gerados a partir da ferramenta Google Analytics.</p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-9" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span> O logotipo da Câmara possui versões em vetor? Possui um manual de identidade visual? Se sim, gostaria de obtê-los, se convier.
-                        </div>
-                        <div id="collapsible-9" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>A Câmara não pode enviar seu logotipo vetorizado aos participantes do concurso, pois ele só pode ser utilizado por instituições conveniadas. As regras de identidade visual podem ser acessadas na página <a href="http://www2.camara.leg.br/camaranoticias/institucional/materias/519921-SOBRE-O-USO-DA-LOGOMARCA.html">Sobre o uso da logomarca</a>.</p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-10" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span>No item 2.1.b. (Layouts da estrutura de agregação dos seguintes serviços: “Transparência”; “Participação”; e “Câmara Notícias”, de forma a tornar intuitivo o acesso aos serviços e a compreensão das informações), o conteúdo deve ser apresentado em HTML? Cada serviço deverá ter uma subpágina? Ou o layout de agregação que se refere deve agregar os três serviços?
-                        </div>
-                        <div id="collapsible-10" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>Os conteúdos devem ser apresentados em HTML e sem programação backend, da mesma forma como descrito explicitamente nas alíneas "a", "c" e "d" desse mesmo item. O layout não deve agregar os três serviços. O esperado é que haja um layout de agregação para cada um desses serviços. O edital exibe, no item 2.3, conteúdos referenciais para a elaboração das páginas.</p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-11" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span>O item 2.1.e. diz que a arquitetura de informação do portal deve ser apresentada de forma gráfica e também em forma textual. Já no item 2.1.1 diz que os layouts e arquitetura devem ser responsivos. Não fica claro de que maneira a arquitetura deve ser apresentada. Deve ser um layout em HTML? A forma textual se refere a uma explicação escrita do conteúdo ou apenas os rótulos textuais dos níveis da arquitetura?
-                        </div>
-                        <div id="collapsible-11" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>A arquitetura da informação deve ser apresentada de forma gráfica e também de forma textual, conforme as orientações do item 2.1.e. A arquitetura da informação não precisa ser um layout em HTML. A forma textual deve estar de acordo com o descrito ao final do referido item: "Cada elemento deve ser identificado por um nome e possuir uma breve descrição". Ou seja, o proponente deverá apresentar mapas que representem a organização da estrutura do Portal e de seu conteúdo; os sistemas de navegação e de busca, e que apresentem a rotulagem e a categorização da informação. A apresentação dos itens de navegação, dos filtros e da categorização dos conteúdos dos filtros necessitam de uma breve explicação escrita.</p>
-                            </div>
-                        </div>
-
-                        <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-12" data-parent="#chlg-accordion">
-                            <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span>Boa tarde. Minha dúvida é na especificidade de construção. Todo o projeto deve ser construído em HTML puro, sem qualquer utilização de linguagens no servidor, ou uso de plataformas e framework?
-                        </div>
-                        <div id="collapsible-12" class="collapse">
-                            <div class="chlg-faq-pad">
-                                <p>O projeto deve conter um conjunto de layouts, conforme especificação constante no item 2.1, alíneas “a” a “d” do edital. Esses layouts devem ser construídos em HTML, e pode-se utilizar arquivos adicionais para folhas de estilo, scripts Javascript, imagens, etc. É importante ressaltar que esses arquivos devem compor o projeto, ou seja, devem estar contidos no arquivo compactado a ser enviado, de forma que não haja dependências externas. Não deve haver qualquer implementação que dependa de linguagens no servidor (backend). É permitido o uso de frameworks e bibliotecas relacionados ao frontend (HTML, CSS, Javascript), desde que abertas e livres. Entende-se por "abertas e livres" as que incluem seu código-fonte completo e que podem ser utilizadas, reutilizadas, distribuídas e/ou alteradas sem qualquer ônus para a Câmara dos Deputados.</p>
-                            </div>
-                        </div>
-                    </div>
                     <hr>
                     <h2>Impugnações</h2>
+                    {{^impugnacoes}}
                     <div class="alert alert-info" role="alert">
                         <p>Nenhuma impugnação publicada.</p>
                     </div>
+                    {{/impugnacoes}}
+
+                    {{#impugnacoes}}
+                        <div class="accordion" id="chlg-accordion2">
+                            {{#impugnacoes}}
+                                <div class="chlg-faq-questions-bar" data-toggle="collapse" data-target="#collapsible-{{id}}" data-parent="#chlg-accordion2">
+                                    <span class="icon-change glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                        {{title.rendered}}
+                                </div>
+                                <div id="collapsible-{{id}}" class="collapse">
+                                    <div class="chlg-faq-pad">
+                                          <p>{{{content.rendered}}}</p>
+                                    </div>
+                                </div>
+                            {{/impugnacoes}}
+                        </div>
+                    {{/impugnacoes}}
                 </div>
             </div>
         </div>
     </div>
-    <!-- partial:../../partials/scripts.html -->
-    <script src="/js/vendor.js"></script>
-    <noscript>Seu browser não tem suporte a javascript!</noscript>
-    <script src="/js/all-scripts.min.js"></script>
-    <noscript>Seu browser não tem suporte a javascript!</noscript>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
-    <noscript>Seu browser não tem suporte a javascript!</noscript>
-    <!-- partial -->
+<!-- end content  -->
 
-    <!-- partial:../../partials/g-analytics.html -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-17416078-9', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-    <!-- partial -->
-
-    <!-- partial:../../partials/footer.html -->
-    <!--validação rodapé acessibilidade role="contentinfo"-->
-      <div class="container-fluid" id="chlg-footer" role="contentinfo">
-          <section class="chlg-bg-footer">
-              <h2 class="sr-only">>Contato e localização</h2>
-              <div class="container">
-                  <div class="row chlg-text-footer">
-                      <div class="col-md-2 col-sm-12">
-                          <i class="chlg-logo-challenge"></i>
-                      </div>
-                      <div class="col-md-8 col-sm-12">
-                          <p class="chlg-footer-tt text-muted"><strong>DESAFIO.LEG.BR</strong></p>
-                          <p class="chlg-footer-desc text-muted">Câmara dos Deputados - Palácio do Congresso Nacional<br>Praça dos Três Poderes - Brasília - DF</p>
-                          <p class="chlg-footer-desc text-muted">CEP 70160-900 - E-mail: contato@desafio.camara.leg.br</p>
-                      </div>
-                      <div class="col-md-2 col-sm-12">
-                          <a href="http://www2.camara.leg.br/"><i class="chlg-logo-camara"></i><span class="sr-only">Câmara dos
-      Deputados (link externo)</span></a>
-                      </div>
-                      <!--<div class="col-md-2 col-sm-6">
-                          <p>Redes Sociais</p>
-                          <ul>
-                              <li>
-                                  <a href="https://twitter.com/DesafioLegBr/"><i class="chlg-logo-twitter"></i><span class="sr-only">Twitter do Desafio.leg.br</span></a>
-                              </li>
-                              <li>
-                                  <a href="https://www.facebook.com/DesafioLegBr/"><i class="chlg-logo-face"></i><span class="sronly">Facebook
-      do Desafio.leg.br</span></a>
-                              </li>
-                          </ul>
-                      </div>-->
-                  </div>
-              </div>
-          </section>
-    </div>
-    <!-- partial -->
-</body>
-</html>
+<!-- Footer -->
+{{> partials/footer }}

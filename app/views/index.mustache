@@ -131,39 +131,74 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="text-center">Notícias</h2>
-                        <!--<div class="chlg-line-section"></div>-->
+                        {{#existsNews}}
+                            <div class="row chlg-container-news">
+                              <!-- Noticias container  -->
 
-                        <div class="row chlg-container-news">
-                          <!-- Noticias container  -->
-                          {{#ultimaNoticia}}
-                              <div class="col-md-6 chlg-news-one-bg">
-                                  <div class="tint">
-                                      <a target="_blank" href="{{link}}">
-                                            <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
-                                            <p class="chlg-txt-title">{{title.rendered}}</p>
-                                            <p class="chlg-txt-des"> {{{excerpt.rendered}}} </p>
-                                      </a>
-                                  </div>
-                          </div>
-                          {{/ultimaNoticia}}
+                              {{#ultimaNoticia}}
+                                  <div class="col-md-6 chlg-news-one-bg">
 
-                          <div class="col-md-6">
-                                  <div class="row">
-                                      {{#outrasNoticias}}
-                                      <div class="col-md-12 chlg-news-two-bg">
-                                          <div class="tint2">
-                                              <a target="_blank" href="{{link}}">
-                                                      <img class="chlg-news-images img-responsive" src="img/images/portal-00.jpg" alt=""/>
-                                                      <p class="chlg-txt-title">{{title.rendered}}</p>
-                                                  </a>
-                                          </div>
+                                      <div class="tint" >  <!--  -->
+                                          <a target="_blank" href="{{link}}">
+                                                {{#_embedded}}
+                                                    {{#wp:featuredmedia}}
+                                                            {{#source_url}}
+                                                              <img class="chlg-news-images img-responsive" src="{{source_url}}" alt=""/>
+                                                            {{/source_url}}
+                                                            {{^source_url}}
+                                                                <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
+                                                            {{/source_url}}
+                                                    {{/wp:featuredmedia}}
+                                                {{/_embedded}}
+
+                                                <p class="chlg-txt-title">
+                                                  {{title.rendered}}
+                                                </p>
+
+                                                <p class="chlg-txt-des">
+                                                  {{#content}}
+                                                      {{rendered}}
+                                                  {{/content}}
+                                              </p>
+                                          </a>
                                       </div>
-                                      {{/outrasNoticias}}
-                                  </div>
-                           </div>
+                              </div>
+                              {{/ultimaNoticia}}
 
-                          <!-- End noticias container  -->
-                        </div>
+                              <div class="col-md-6">
+                                      <div class="row">
+                                          {{#outrasNoticias}}
+                                          <div class="col-md-12 chlg-news-two-bg">
+                                              <div class="tint2">
+                                                  <a target="_blank" href="{{link}}">
+                                                    {{#_embedded}}
+                                                        {{#wp:featuredmedia}}
+                                                                {{#source_url}}
+                                                                  <img class="chlg-news-images img-responsive" src="{{source_url}}" alt=""/>
+                                                                {{/source_url}}
+                                                                {{^source_url}}
+                                                                    <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
+                                                                {{/source_url}}
+                                                        {{/wp:featuredmedia}}
+                                                    {{/_embedded}}
+                                                          <!-- <img class="chlg-news-images img-responsive" src="img/images/portal-00.jpg" alt=""/> -->
+                                                          <p class="chlg-txt-title">{{title.rendered}}</p>
+                                                      </a>
+                                              </div>
+                                          </div>
+                                          {{/outrasNoticias}}
+                                      </div>
+                               </div>
+                              <!-- End noticias container  -->
+                            </div>
+                        {{/existsNews}}
+
+                        {{^existsNews}}
+                              <div class="alert alert-danger" style="text-align: center;">
+                                  <strong>Atenção !</strong>
+                                  Serviço de notícias indisponível.
+                              </div>
+                        {{/existsNews}}
 
                     </div>
                 </div>

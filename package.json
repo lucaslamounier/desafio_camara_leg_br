@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lucaslamounier/desafio_camara_leg_br#readme",
   "dependencies": {
+    "async": "^2.5.0",
     "body-parser": "^1.17.2",
     "consign": "^0.1.6",
     "express": "^4.15.3",
@@ -24,6 +25,7 @@
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.5",
     "request": "^2.81.0",
+    "request-promise": "^4.2.1",
     "sync-request": "^4.1.0"
   }
 }
