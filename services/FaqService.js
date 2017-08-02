@@ -25,7 +25,7 @@ FaqService.prototype.getAllFaq = function(uri, categories, callback) {
     cachedRequest(this._options, callback);
 };
 
-// Exporta o modulo NoticiaService
+// Exporta o modulo FaqService
 module.exports = function() {
     return FaqService;
 };
