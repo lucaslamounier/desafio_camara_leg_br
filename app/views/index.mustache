@@ -9,15 +9,13 @@
             <ul>
                 <li>
                     <a accesskey="1" href="#anchor1">
-                            Ir para conteúdo [1]
-                        </a>
+                      Ir para conteúdo [1]
+                    </a>
                 </li>
             </ul>
         </div>
   </header>
-
-
-    <div class="container-fluid chlg-bg-banner">
+  <div class="container-fluid chlg-bg-banner">
         <section id="chlg-introduction">
             <h2 class="sr-only">Suas soluções para o seu legislativo</h2>
             <div class="container">
@@ -139,7 +137,14 @@
                                   <div class="col-md-6 chlg-news-one-bg">
 
                                       <div class="tint" >
+                                          {{#slug}}
                                           <a href="noticia?identificador={{slug}}" title="Clique aqui para visualizar a notícia">
+                                          {{/slug}}
+
+                                          {{^slug}}
+                                          <a href="#">
+                                          {{/slug}}
+
                                                 {{#featured_image_src}}
                                                     <img class="chlg-news-images img-responsive" src="{{featured_image_src}}" alt=""/>
                                                 {{/featured_image_src}}
@@ -199,8 +204,8 @@
 
                 <div class="row">
                     <div class="col-md-4 col-md-offset-4 text-center">
-                        <!--<a href="noticias/lista/index.html" class="chlg-btn-more-news">Mais notícias</a>-->
-                        <!--<p class="chlg-btn-more-news">Mais notícias</p>-->
+                        <a href="/" class="chlg-btn-more-news">Mais notícias</a>
+                        <!-- <p class="chlg-btn-more-news">Mais notícias</p> -->
                     </div>
                 </div>
             </div>

@@ -12,7 +12,6 @@ module.exports.index = function(application, req, res) {
 
             if (data.length > 0) existsNews = true;
             console.log("NoticiaService getLastNews return " + data.length + " results.");
-
             res.render('index', {
                 existsNews: existsNews,
                 ultimaNoticia: lastNews,
@@ -34,7 +33,6 @@ module.exports.noticia = function(application, req, res) {
     var noticiaService = new application.services.NoticiaService();
     // recupera da url o slug da noticia
     var slug = req.query['identificador'];
-
     noticiaService.getNews(slug, function(error, response, body) {
         if (!error && response.statusCode == 200) {
             var data = JSON.parse(body);

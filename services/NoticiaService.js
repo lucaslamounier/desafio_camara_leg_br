@@ -19,14 +19,14 @@ NoticiaService.prototype.getLastNews = function(callback) {
     // para retorna somente 3 itens por página
     this._options['uri'] += '&per_page=3';
     //console.log('NoticiaService request from url: ' + this._options['uri']);
-    cachedRequest(this._options, callback);
+    request(this._options, callback);
 };
 
 NoticiaService.prototype.getNews = function(noticia_slug, callback) {
     // Pega a informação da noticia
     this._options['uri'] += '&slug=' + noticia_slug;
     //console.log('NoticiaService request from url: ' + this._options['uri']);
-    cachedRequest(this._options, callback);
+    request(this._options, callback);
 };
 
 // Exporta o modulo NoticiaService
