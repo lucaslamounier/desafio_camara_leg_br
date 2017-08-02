@@ -19,6 +19,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "body-parser": "^1.17.2",
+    "cached-request": "^1.1.2",
     "consign": "^0.1.6",
     "express": "^4.15.3",
     "express-validator": "^3.2.1",

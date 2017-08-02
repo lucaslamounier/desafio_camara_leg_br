@@ -1,7 +1,11 @@
 var request = require('request');
+var cachedRequest = require('cached-request')(request);
+var cacheDirectory = "cache/faq-cache";
+
+cachedRequest.setCacheDirectory(cacheDirectory);
 
 // Classe de Perguntas frequentes
-function FaqService(){
+function FaqService() {
     this._options = {
         uri: "http://babygrude.com/desafio/wp-json/wp/v2/posts?", // Default URI
         method: "GET",
@@ -11,17 +15,17 @@ function FaqService(){
 };
 
 // Get all FAQ
-FaqService.prototype.getAllFaq = function(uri, categories, callback){
+FaqService.prototype.getAllFaq = function(uri, categories, callback) {
 
-    if(uri) this._options['uri'] = uri;
+    if (uri) this._options['uri'] = uri;
 
-    if(categories) this._options['uri'] += categories;
+    if (categories) this._options['uri'] += categories;
 
-    console.log('FaqService request from url: ' + this._options['uri']);
-    request(this._options, callback);
+    //console.log('FaqService request from url: ' + this._options['uri']);
+    cachedRequest(this._options, callback);
 };
 
 // Exporta o modulo NoticiaService
-module.exports = function(){
+module.exports = function() {
     return FaqService;
 };

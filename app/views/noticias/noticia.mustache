@@ -1,0 +1,27 @@
+<!-- header  -->
+{{> partials/header }}
+
+<!-- navbar-clean  -->
+{{> partials/navbar-clean }}
+
+<!-- content -->
+<div class="container-fluid chlg-faq-app-legislative-bg">
+            <div class="container chlg-faq-app-legislative">
+              {{#result}}
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h1 class="chlg-faq-tt" style="font-size: 30px;">{{title.rendered}}</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <hr>
+                    </div>
+                    <div class="row">
+                            {{{content.rendered}}}
+                    </div>
+              {{/result}}
+            </div>
+        </div>
+
+<!-- Footer -->
+{{> partials/footer }}

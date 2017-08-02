@@ -1,6 +1,6 @@
 var request = require('request');
 
-// Classe de Perguntas frequentes
+// Classe de Avisos, Esclarecimentos e Impugnacoes
 function AEIService() {
     this._host = "http://babygrude.com/desafio/wp-json/wp/v2/posts?";
 
@@ -21,6 +21,13 @@ AEIService.prototype.getAvisos = function(categories, callback) {
 
 // Pega todas as impugnações
 AEIService.prototype.getImpugnacoes = function(categories, callback) {
+    var options = this._options;
+    if (categories) options['uri'] = this._host + categories;
+    //console.log('AEIService request getImpugnacoes from url: ' + options['uri']);
+    request(options, callback);
+};
+
+AEIService.prototype.getEsclarecimentos = function(categories, callback) {
     var options = this._options;
     if (categories) options['uri'] = this._host + categories;
     //console.log('AEIService request getImpugnacoes from url: ' + options['uri']);

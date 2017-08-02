@@ -138,27 +138,22 @@
                               {{#ultimaNoticia}}
                                   <div class="col-md-6 chlg-news-one-bg">
 
-                                      <div class="tint" >  <!--  -->
-                                          <a target="_blank" href="{{link}}">
-                                                {{#_embedded}}
-                                                    {{#wp:featuredmedia}}
-                                                            {{#source_url}}
-                                                              <img class="chlg-news-images img-responsive" src="{{source_url}}" alt=""/>
-                                                            {{/source_url}}
-                                                            {{^source_url}}
-                                                                <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
-                                                            {{/source_url}}
-                                                    {{/wp:featuredmedia}}
-                                                {{/_embedded}}
+                                      <div class="tint" >
+                                          <a href="noticia?identificador={{slug}}" title="Clique aqui para visualizar a notícia">
+                                                {{#featured_image_src}}
+                                                    <img class="chlg-news-images img-responsive" src="{{featured_image_src}}" alt=""/>
+                                                {{/featured_image_src}}
+
+                                                {{^featured_image_src}}
+                                                        <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
+                                                {{/featured_image_src}}
 
                                                 <p class="chlg-txt-title">
                                                   {{title.rendered}}
                                                 </p>
 
                                                 <p class="chlg-txt-des">
-                                                  {{#content}}
-                                                      {{rendered}}
-                                                  {{/content}}
+                                                    {{content.rendered}}
                                               </p>
                                           </a>
                                       </div>
@@ -170,19 +165,18 @@
                                           {{#outrasNoticias}}
                                           <div class="col-md-12 chlg-news-two-bg">
                                               <div class="tint2">
-                                                  <a target="_blank" href="{{link}}">
-                                                    {{#_embedded}}
-                                                        {{#wp:featuredmedia}}
-                                                                {{#source_url}}
-                                                                  <img class="chlg-news-images img-responsive" src="{{source_url}}" alt=""/>
-                                                                {{/source_url}}
-                                                                {{^source_url}}
-                                                                    <img class="chlg-news-images img-responsive" src="/img/images/campus-party-00.jpg" alt=""/>
-                                                                {{/source_url}}
-                                                        {{/wp:featuredmedia}}
-                                                    {{/_embedded}}
+                                                  <a href="noticia?identificador={{slug}}" title="Clique aqui para visualizar a notícia">
+                                                          {{#featured_image_src}}
+                                                              <img class="chlg-news-images img-responsive" src="{{featured_image_src}}" alt=""/>
+                                                          {{/featured_image_src}}
+
+                                                          {{^featured_image_src}}
+                                                                  <img class="chlg-news-images img-responsive" src="/img/images/app-00.jpg" alt=""/>
+                                                          {{/featured_image_src}}
+
                                                           <!-- <img class="chlg-news-images img-responsive" src="img/images/portal-00.jpg" alt=""/> -->
                                                           <p class="chlg-txt-title">{{title.rendered}}</p>
+
                                                       </a>
                                               </div>
                                           </div>
