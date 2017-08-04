@@ -7,6 +7,12 @@
 <!-- content -->
 <div class="container-fluid chlg-faq-app-legislative-bg">
             <div class="container chlg-faq-app-legislative">
+              {{#error.msg}}
+                  <div class="alert alert-info">
+                        {{error.msg}}
+                  </div>
+              {{/error.msg}}
+
               {{#result}}
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">

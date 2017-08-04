@@ -10,12 +10,12 @@ module.exports.faq = function(application, req, res) {
         if (!error && response.statusCode == 200) {
             var data = JSON.parse(body);
             console.log('faq return ' + data.length + ' results');
-            res.render('novo-portal/faq/index', {
+            res.render('novo-portal/faq', {
                 result: data,
                 error: {}
             });
         } else {
-            res.render('novo-portal/faq/index', {
+            res.render('novo-portal/faq', {
                 result: {},
                 error: error
             });
@@ -46,7 +46,7 @@ module.exports.aei = function(application, req, res) {
                             var esclarecimentos = JSON.parse(body);
                             console.log('esclarecimentos return ' + esclarecimentos.length + ' results');
 
-                            res.render('novo-portal/aei/index', {
+                            res.render('novo-portal/aei', {
                                 avisos: avisos,
                                 impugnacoes: impugnacoes,
                                 esclarecimentos: esclarecimentos,
@@ -55,7 +55,7 @@ module.exports.aei = function(application, req, res) {
 
                         } else {
                             //console.log(error);
-                            res.render('novo-portal/aei/index', {
+                            res.render('novo-portal/aei', {
                                 avisos: avisos,
                                 impugnacoes: impugnacoes,
                                 esclarecimentos: {},
@@ -66,7 +66,7 @@ module.exports.aei = function(application, req, res) {
 
                 } else {
                     //console.log(error);
-                    res.render('novo-portal/aei/index', {
+                    res.render('novo-portal/aei', {
                         avisos: avisos,
                         impugnacoes: {},
                         esclarecimentos: {},
@@ -78,7 +78,7 @@ module.exports.aei = function(application, req, res) {
             // error get avisos
         } else {
             //console.log('Get avisos error.. ' + error);
-            res.render('novo-portal/aei/index', {
+            res.render('novo-portal/aei', {
                 avisos: {},
                 impugnacoes: {},
                 esclarecimentos: {},
@@ -89,5 +89,13 @@ module.exports.aei = function(application, req, res) {
 };
 // Controller da página aceite o desafio
 module.exports.aceiteDesafio = function(application, req, res) {
-    res.render('novo-portal/forms/aceite-desafio');
+    res.render('novo-portal/aceite-desafio');
+};
+// Controller do formulário de cadastro do desafio PF
+module.exports.cadastroFormPF = function(application, req, res){
+      res.render('forms/novo-portal/cadastro-form-pf');
+};
+// Controller do formulário de cadastro do desafio PJ
+module.exports.cadastroFormPJ = function(application, req, res){
+      res.render('forms/novo-portal/cadastro-form-pj');
 };

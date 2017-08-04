@@ -1,9 +1,4 @@
 var request = require('request');
-var cachedRequest = require('cached-request')(request);
-var cacheDirectory = "cache/faq-cache";
-
-cachedRequest.setCacheDirectory(cacheDirectory);
-
 // Classe de Perguntas frequentes
 function FaqService() {
     this._options = {
@@ -22,7 +17,7 @@ FaqService.prototype.getAllFaq = function(uri, categories, callback) {
     if (categories) this._options['uri'] += categories;
 
     //console.log('FaqService request from url: ' + this._options['uri']);
-    cachedRequest(this._options, callback);
+    request(this._options, callback);
 };
 
 // Exporta o modulo FaqService

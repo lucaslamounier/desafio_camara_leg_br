@@ -6,7 +6,7 @@ function AEIService() {
 
     this._options = {
         method: "GET",
-        timeout: 100000,
+        timeout: 10000,
         proxy: 'http://127.0.0.1:3128',
     };
 };

@@ -1,9 +1,4 @@
 var request = require('request');
-var cachedRequest = require('cached-request')(request);
-var cacheDirectory = "cache/noticias-cache";
-
-cachedRequest.setCacheDirectory(cacheDirectory);
-
 // Classe NoticiaService
 function NoticiaService() {
     this._options = {

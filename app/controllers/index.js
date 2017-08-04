@@ -33,6 +33,11 @@ module.exports.noticia = function(application, req, res) {
     var noticiaService = new application.services.NoticiaService();
     // recupera da url o slug da noticia
     var slug = req.query['identificador'];
+
+    if(!slug){
+        res.render('noticias/noticia', {error: { msg: 'Parâmetro inválido !'}, result: {} });
+    }
+
     noticiaService.getNews(slug, function(error, response, body) {
         if (!error && response.statusCode == 200) {
             var data = JSON.parse(body);
